@@ -6,7 +6,7 @@ This AstroJS project is intended to be the Landing Page of TopNetworks Inc., a c
 
 - The language of the project is **Spanish**, as it targets a Spanish-speaking audience.
 - The project is built using **AstroJS**.
-- The project is hosted on **GitHub**.
+- The project is hosted on [**this GitHub Repository**](https://github.com/juanjaragavi/topnetworks.git).
 - The project is designed to be a **Landing Page** for TopNetworks Inc.
 - The project is based on the **Astrowind** template, which provides a modern and responsive design.
 
