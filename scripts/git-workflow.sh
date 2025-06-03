@@ -46,9 +46,9 @@ else
 fi
 
 # Step 4: Check if commit message file exists
-if [ -f "./lib/documents/commit-message.txt" ]; then
+if [ -f "./src/lib/documents/commit-message.txt" ]; then
   echo "Committing with message from commit-message.txt..."
-  git commit -F ./lib/documents/commit-message.txt
+  git commit -F ./src/lib/documents/commit-message.txt
 else
   echo "No commit message file found. Please enter commit message:"
   read -p "> " commit_message

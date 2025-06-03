@@ -7,13 +7,16 @@ import Features from '~/components/widgets/Features.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import Content from '~/components/widgets/Content.astro';
-import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import WidgetWrapper from '~/components/ui/WidgetWrapper.astro'; // Added
+import Headline from '~/components/ui/Headline.astro'; // Added
+import ItemGrid from '~/components/ui/ItemGrid.astro'; // Added
+import Contact from '~/components/widgets/Contact.astro'; // Added Contact
 import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
+// import CallToAction from '~/components/widgets/CallToAction.astro'; // Removed as it's no longer used on this page
 
 const metadata = {
-  title: 'AstroWind — Free template for creating websites with Astro + Tailwind CSS',
+  title: 'TopNetworks Inc. — Optimizando la Publicidad Digital',
   ignoreTitleTemplate: true,
 };
 ---
@@ -25,78 +28,81 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Get template',
-        href: 'https://github.com/onwidget/astrowind',
-        target: '_blank',
-        icon: 'tabler:download',
+        text: 'Conoce Más',
+        href: '#servicios',
+        icon: 'tabler:arrow-down-circle',
       },
-      { text: 'Learn more', href: '#features' },
+      { text: 'Contáctanos', href: '/contact' },
     ]}
-    image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image' }}
+    image={{ src: '~/assets/images/hero-image.png', alt: 'TopNetworks Hero Image' }}
   >
     <Fragment slot="title">
-      Free template for <span class="hidden xl:inline">creating websites with</span>
-      <span class="text-accent dark:text-white"> Astro 5.0</span> + Tailwind CSS
+      <span class="text-accent dark:text-white">TopNetworks Inc.</span>
+      <br />Optimizando la Experiencia Digital
     </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">AstroWind</span> is a free, customizable and production-ready template for Astro 5.0
-        + Tailwind CSS.</span
-      >
-      <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span>
-      Suitable for Startups, Small Business, SaaS websites, Professional Portfolios, Marketing websites, Landing Pages &
-      Blogs.
+        En <span class="font-semibold">TopNetworks</span>, somos una empresa de tecnología de vanguardia. Desarrollamos
+        y perfeccionamos continuamente modelos de monetización basados en performance marketing, agregando valor tanto a
+        usuarios como a anunciantes.
+      </span>
+      <span class="block mb-1 sm:hidden font-bold text-blue-600">TopNetworks: Conectamos Valor.</span>
+      Especialistas en optimización de publicidad digital programática con un enfoque "mobile-first", iniciando en el dinámico
+      sector financiero.
     </Fragment>
   </Hero>
 
   <!-- Note Widget ******************* -->
 
-  <Note title="Philosophy:" description="Simplicity, Best Practices and High Performance" />
+  <Note
+    title="Nuestra Filosofía:"
+    description="Agregar valor a usuarios y anunciantes, monetizando su interacción de manera efectiva y mejorando continuamente el recorrido de información del usuario."
+  />
 
   <!-- Features Widget *************** -->
 
   <Features
-    id="features"
-    tagline="Features"
-    title="What you get with AstroWind"
-    subtitle="One of the most professional and comprehensive templates currently on the market. Most starred & forked Astro theme in 2022, 2023 and 2024."
+    id="servicios"
+    tagline="Servicios Clave"
+    title="Potenciamos tu Estrategia Digital"
+    subtitle="Descubre cómo nuestros servicios especializados pueden transformar tus resultados en el competitivo mercado digital."
     items={[
       {
-        title: 'Astro + Tailwind CSS Integration',
+        title: 'Generación y Producción de Contenido',
         description:
-          'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
-        icon: 'tabler:brand-tailwind',
+          'Creamos contenido relevante y optimizado utilizando modelos SEO, Inbound y nuestro exclusivo Modelo de Optimización TopNetworks enfocado en "mobile-first".',
+        icon: 'tabler:file-text',
       },
       {
-        title: 'Ready-to-use Components',
+        title: 'Atracción y Monetización de Audiencias',
         description:
-          'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
-        icon: 'tabler:components',
+          'Conectamos usuarios informados con anunciantes relevantes, proporcionando información clara y objetiva para maximizar el rendimiento y la efectividad publicitaria.',
+        icon: 'tabler:users-group',
       },
       {
-        title: 'Best Practices',
+        title: 'Tecnología y Operación Avanzada',
         description:
-          'Creating secure, efficient, and user-friendly websites that deliver exceptional experiences and lasting value.',
-        icon: 'tabler:list-check',
+          'Empleamos más de 10 herramientas digitales para una gestión eficiente de creatividades, tareas técnicas, integraciones, control de calidad y flujo de datos, asegurando escalabilidad.',
+        icon: 'tabler:settings-cog',
       },
       {
-        title: 'Excellent Page Speed',
+        title: 'Optimización Mobile-First',
         description:
-          'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
-        icon: 'tabler:rocket',
+          'Nuestro enfoque "mobile-first" garantiza que todas las estrategias y contenidos estén perfectamente adaptados para el consumo en dispositivos móviles, maximizando el alcance y la interacción.',
+        icon: 'tabler:device-mobile',
       },
       {
-        title: 'Search Engine Optimization (SEO)',
+        title: 'Performance Marketing Basado en Datos',
         description:
-          "SEO lies in its ability to enhance a website's visibility, driving organic traffic and enabling it to reach a wider audience.",
-        icon: 'tabler:arrows-right-left',
+          'Desarrollamos y optimizamos modelos de monetización que se basan en el análisis de datos y el rendimiento para asegurar ingresos publicitarios superiores al costo de adquisición.',
+        icon: 'tabler:chart-bar',
       },
       {
-        title: 'Open to new ideas and contributions',
+        title: 'Expansión Estratégica',
         description:
-          'Embracing a culture that is open to new ideas and contributions is integral fostering innovation, collaboration, and a dynamic user experience.',
-        icon: 'tabler:bulb',
+          'Nuestro modelo de negocio está diseñado para una fácil expansión a nuevos mercados y verticales, replicando el éxito y adaptándonos a las necesidades locales.',
+        icon: 'tabler:world-longitude',
       },
     ]}
   />
@@ -105,33 +111,35 @@ const metadata = {
 
   <Content
     isReversed
-    tagline="Inside template"
-    title="AstroWind's Blueprint: Fun Meets Functionality!"
+    tagline="Quiénes Somos"
+    title="TopNetworks Inc: Innovación en Publicidad Digital"
     items={[
       {
-        title: 'Built on top of Astro 5.0',
+        title: 'Tecnología de Vanguardia',
         description:
-          'Benefiting from the performance and developer-friendly features of this modern static site generator.',
+          'Nos especializamos en la optimización de la publicidad digital mediante redes programáticas, con un fuerte enfoque en el sector financiero.',
       },
       {
-        title: 'Styled using Tailwind CSS',
+        title: 'Modelo Mobile-First',
         description:
-          'Facilitating rapid design and consistent styling with this highly popular utility-first CSS framework.',
+          'Diseñamos nuestras soluciones priorizando la experiencia móvil, adaptándonos al creciente mercado de la publicidad en dispositivos móviles.',
       },
       {
-        title: 'Cross-browser compatibility',
+        title: 'Valor para Usuarios y Anunciantes',
         description:
-          'Ensure your website looks and functions consistently across various web browsers, delivering a seamless experience to all users.',
+          'Cerramos la brecha entre los intereses de los usuarios y la oferta de los anunciantes, mejorando la eficiencia y construyendo confianza.',
       },
     ]}
     image={{
       src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Colorful Image',
+      alt: 'Equipo TopNetworks trabajando',
     }}
   >
     <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Building on modern foundations</h3>
-      Gain a competitive advantage by incorporating industry leading practices
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+        Conectando Intereses, Optimizando Resultados
+      </h3>
+      En TopNetworks, transformamos la interacción digital en valor tangible.
     </Fragment>
 
     <Fragment slot="bg">
@@ -143,167 +151,193 @@ const metadata = {
 
   <Content
     isAfterContent
+    tagline="Estrategia de Contenido"
+    title="Contenido Inteligente que Impulsa el Crecimiento"
     items={[
       {
-        title: 'High level of customization',
-        description: `Tailor the template effortlessly to match your brand's identity and requirements, making your website distinct and saving you time.`,
+        title: 'Modelo SEO',
+        description: `Producimos contenido optimizado para motores de búsqueda, asegurando máxima relevancia y posicionamiento en Google.`,
       },
       {
-        title: 'Multiple layout possibilities',
+        title: 'Modelo Inbound',
         description:
-          'Explore various layout options to find the structure that best presents your content, enhancing user engagement and navigation.',
+          'Creamos contenidos que guían al usuario a través del embudo de conversión (TOFU, MOFU, BOFU), fomentando el interés y mejorando la interacción.',
       },
       {
-        title: 'Fully responsive design',
+        title: 'Optimización TopNetworks',
         description:
-          "Ensure your website's optimal performance on various devices and screen sizes, providing a consistent and enjoyable user experience.",
+          'Nuestro modelo propio "mobile-first" optimiza la estructura y diseño del contenido para un consumo fácil en móviles y una monetización superior.',
       },
       {
-        title: 'Integration of media',
+        title: 'Contenido Diferencial',
         description:
-          'Seamlessly incorporate images, videos, and multimedia elements that enhance your content and engage visitors effectively.',
+          'Adaptamos el diseño del contenido según la etapa del embudo, buscando en la etapa BOFU una afinidad con la marca del producto para potenciar el rendimiento.',
       },
     ]}
     image={{
       src: 'https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2194&q=80',
-      alt: 'Blueprint Image',
+      alt: 'Estrategia de Contenido Visualizada',
     }}
   >
-    <Fragment slot="content">Ensure your online presence truly represents you.</Fragment>
+    <Fragment slot="content"
+      >El contenido es el pilar de una experiencia de usuario valiosa y una monetización efectiva.</Fragment
+    >
 
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
   </Content>
 
-  <!-- Content Widget **************** -->
-
-  <Content
-    isReversed
-    isAfterContent
-    items={[
-      {
-        title: 'Enhanced user engagement',
-        description:
-          'Captivate your audience with interactive elements, intuitive navigation, and visually appealing layouts, encouraging longer visits.',
-      },
-      {
-        title: 'Continuous improvement',
-        description:
-          'Ensure your website stays aligned with the latest trends and technologies through regular updates and enhancements.',
-      },
-      {
-        title: 'Time and resource efficiency',
-        description:
-          'Skip the time-consuming process of building a website from scratch and launch your online presence sooner with AstroWind.',
-      },
-      {
-        title: 'Community support',
-        description: `Join the growing AstroWind community for insights, resources, and assistance, ensuring you're never alone on your web development journey.`,
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1611462985358-60d3498e0364?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Astronauts Image',
-    }}
-  >
-    <Fragment slot="content">Designed to foster growth and success.</Fragment>
-
+  <!-- Nuestras Marcas Widget (Refactored to ItemGrid 2x2) **************** -->
+  <WidgetWrapper id="nuestras-marcas" isDark={false} containerClass="py-8 md:py-12 lg:py-16">
     <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+      <div class="absolute inset-0 bg-white dark:bg-slate-900"></div>
     </Fragment>
-  </Content>
+    <Headline
+      tagline="Nuestras Marcas"
+      title="Portales Especializados para Audiencias Conectadas"
+      subtitle="Desarrollamos y operamos una red de portales de contenido especializados, diseñados para ser altamente escalables."
+      classes={{
+        container: 'max-w-xl sm:mx-auto lg:max-w-2xl text-center',
+        title: 'text-4xl md:text-5xl font-bold tracking-tighter mb-4 font-heading',
+        subtitle: 'max-w-3xl mx-auto sm:text-center text-xl text-muted dark:text-slate-400',
+      }}
+    />
+    <div class="mx-auto max-w-5xl px-4 md:px-8 mt-8 md:mt-12">
+      <ItemGrid
+        columns={2}
+        items={[
+          {
+            title: 'TopFinanzas México',
+            description:
+              'Nuestra plataforma validada. Comunidad de finanzas personales ayudando a tomar mejores decisiones financieras. Más de 90,000 usuarios únicos al mes.',
+            icon: 'tabler:building-bank', // Changed icon
+          },
+          {
+            title: 'TopFinanzas USA',
+            description:
+              'Expansión al mercado estadounidense. Lanzamiento planificado para Q4 2024, aprovechando un mercado publicitario de $298.4bn.',
+            icon: 'flat-color-icons:area-chart',
+          },
+          {
+            title: 'TopFinanzas UK',
+            description:
+              'Próxima entrada al Reino Unido en Q1 2025. Un mercado con una inversión publicitaria digital estimada de $44.4bn.',
+            icon: 'flat-color-icons:business',
+          },
+          {
+            title: 'BudgetBee',
+            description:
+              "'Your Hive for Unbiased Financial Buzz'. Plataforma para Gen Z y Millennials, enfocada en tarjetas de crédito, presupuestos y finanzas personales.",
+            icon: 'flat-color-icons:calculator',
+          },
+        ]}
+        classes={{
+          container: 'gap-8 md:gap-12', // Grid styling for items
+          panel:
+            'text-left p-6 rounded-lg bg-slate-50 dark:bg-slate-800 shadow-xl hover:shadow-2xl transition-shadow duration-300 flex flex-col', // Card styling
+          icon: 'w-12 h-12 text-blue-600 dark:text-blue-500 mb-4 self-start', // Icon styling
+          title: 'text-2xl font-bold text-gray-900 dark:text-white mb-3', // Title styling
+          description: 'text-md text-gray-700 dark:text-slate-300 flex-grow', // Description styling
+        }}
+      />
+    </div>
+  </WidgetWrapper>
 
   <!-- Steps Widget ****************** -->
 
   <Steps
-    title="Get your dream website up and running in no time with AstroWind."
+    title="Nuestro Proceso: Maximizando tu Retorno de Inversión Digital"
     items={[
       {
-        title: 'Step 1: <span class="font-medium">Download</span>',
+        title: 'Paso 1: <span class="font-medium">Análisis y Estrategia</span>',
         description:
-          "Kickstart with GitHub! Either fork the AstroWind template or simply click 'Use this template'. Your canvas awaits, ready for your digital masterpiece. In just a few clicks, you've already set the foundation.",
-        icon: 'tabler:package',
+          'Comprendemos tus necesidades y el mercado. Investigamos tendencias y definimos la estrategia de contenido y publicidad más efectiva para tus objetivos.',
+        icon: 'tabler:search',
       },
       {
-        title: 'Step 2: <span class="font-medium">Add content</span>',
+        title: 'Paso 2: <span class="font-medium">Producción Optimizada</span>',
         description:
-          "Pour your vision into it. Add images, text, and all that jazz to breathe life into your digital space. Remember, it's the content that tells your story, so make it captivating.",
-        icon: 'tabler:letter-case',
+          "Creamos contenido de alto impacto aplicando nuestros modelos SEO, Inbound y de Optimización TopNetworks, con un enfoque 'mobile-first' para máxima resonancia.",
+        icon: 'tabler:file-pencil',
       },
       {
-        title: 'Step 3: <span class="font-medium">Customize styles</span>',
+        title: 'Paso 3: <span class="font-medium">Atracción de Audiencia</span>',
         description:
-          'Give it your personal touch. Tailor colors, fonts, and layouts until it feels just right. Your unique flair, amplified by AstroWind! Precision in design ensures a seamless user experience.',
-        icon: 'tabler:paint',
+          'Lanzamos campañas de tráfico segmentadas en medios digitales, atrayendo usuarios interesados y cualificados a nuestras plataformas y a tus ofertas.',
+        icon: 'tabler:target-arrow',
       },
       {
-        title: 'Ready!',
-        icon: 'tabler:check',
+        title: 'Paso 4: <span class="font-medium">Monetización y Optimización</span>',
+        description:
+          'Implementamos estrategias de performance marketing, analizando datos continuamente para optimizar la monetización y asegurar un crecimiento sostenible.',
+        icon: 'tabler:trending-up',
       },
     ]}
     image={{
       src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
-      alt: 'Steps image',
+      alt: 'Proceso TopNetworks',
     }}
   />
 
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="Most used widgets"
-    subtitle="Provides frequently used components for building websites using Tailwind CSS"
-    tagline="Components"
+    title="¿Por Qué Elegir TopNetworks?"
+    subtitle="Resultados comprobados y un enfoque innovador nos distinguen en el mercado de la publicidad digital."
+    tagline="Ventajas Competitivas"
     items={[
       {
-        title: 'Headers',
-        description: "Ever tried driving without GPS? Boom! That's why websites need headers for direction.",
-        icon: 'flat-color-icons:template',
-      },
-      {
-        title: 'Heros',
+        title: 'Experiencia Comprobada',
         description:
-          "Picture a superhero landing – epic, right? That's the job of a Hero section, making grand entrances!",
-        icon: 'flat-color-icons:gallery',
-      },
-      {
-        title: 'Features',
-        description:
-          'Where websites strut their stuff and show off superpowers. No holding back on the bragging rights here!',
+          'Fundadores con más de 15 años en publicidad digital y AdTech. Éxito validado con TopFinanzas México.',
         icon: 'flat-color-icons:approval',
       },
       {
-        title: 'Content',
+        title: 'Tecnología de Punta',
         description:
-          "Dive into the meat and potatoes of a site; without it, you'd just be window shopping. Content is king.",
-        icon: 'flat-color-icons:document',
+          'Utilizamos un stack de más de 10 herramientas para una operación eficiente, centralizada y escalable.',
+        icon: 'flat-color-icons:settings',
       },
       {
-        title: 'Call-to-Action',
+        title: 'Resultados Superiores',
         description:
-          'That enthusiastic friend who\'s always urging, "Do it! Do it!"? Yeah, that\'s this button nudging you towards adventure.',
-        icon: 'flat-color-icons:advertising',
+          'Logramos tasas de interacción (CTR) significativamente más altas que el promedio del mercado (e.g., 28.7% vs 0.5%).',
+        icon: 'flat-color-icons:bar-chart',
       },
       {
-        title: 'Pricing',
-        description: 'Behold the dessert menu of the website world. Tempting choices await, can you resist?',
-        icon: 'flat-color-icons:currency-exchange',
-      },
-      {
-        title: 'Testimonial',
-        description: 'Step into the gossip corner! Here, other visitors spill the beans and share the juicy details.',
-        icon: 'flat-color-icons:voice-presentation',
-      },
-      {
-        title: 'Contact',
+        title: 'Enfoque Mobile-First',
         description:
-          'Like a digital mailbox, but faster! Drop a line, ask a question, or send a virtual high-five. Ding! Message in.',
-        icon: 'flat-color-icons:business-contact',
+          'Nuestras estrategias están diseñadas primordialmente para dispositivos móviles, capturando la mayor parte del mercado publicitario.',
+        icon: 'flat-color-icons:smartphone-tablet',
       },
       {
-        title: 'Footers',
-        description: "The footer's like the credits of a movie but sprinkled with easter eggs. Time to hunt!",
-        icon: 'flat-color-icons:database',
+        title: 'Escalabilidad Global',
+        description:
+          'Nuestro modelo de negocio está preparado para la expansión vertical (países) y horizontal (nichos de mercado).',
+        icon: 'flat-color-icons:globe',
+      },
+      {
+        title: 'Relaciones Estratégicas',
+        description: 'Acceso directo y colaboración con gigantes de la industria como Google, Amazon, Meta y TikTok.',
+        icon: 'flat-color-icons:contacts',
+      },
+      {
+        title: 'Optimización Continua',
+        description: 'Nos basamos en datos para perfeccionar constantemente la relación entre usuarios y anunciantes.',
+        icon: 'flat-color-icons:data-configuration',
+      },
+      {
+        title: 'Transparencia y Objetividad',
+        description:
+          'Proporcionamos información clara y confiable, construyendo confianza y mejorando la toma de decisiones.',
+        icon: 'flat-color-icons:inspection',
+      },
+      {
+        title: 'Visión de Futuro',
+        description:
+          'Estamos alineados con las tendencias macro de la digitalización bancaria y la publicidad programática.',
+        icon: 'flat-color-icons:bullish',
       },
     ]}
   >
@@ -312,53 +346,93 @@ const metadata = {
     </Fragment>
   </Features2>
 
-  <!-- HighlightedPosts Widget ******* -->
-
-  <BlogLatestPosts
-    title="Find out more content in our Blog"
-    information={`The blog is used to display AstroWind documentation.
-                        Each new article will be an important step that you will need to know to be an expert in creating a website using Astro + Tailwind CSS.
-                        Astro is a very interesting technology. Thanks.
-                `}
-  />
+  <!-- Founders Widget ***************** -->
+  <WidgetWrapper id="founders" isDark={false} containerClass="py-8 md:py-12 lg:py-16">
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-slate-50 dark:bg-slate-900"></div>
+    </Fragment>
+    <Headline
+      tagline="Nuestro Equipo"
+      title="Conoce a los Fundadores de TopNetworks"
+      subtitle="La experiencia y visión que impulsan nuestra innovación en el mercado digital."
+      classes={{
+        container: 'max-w-xl sm:mx-auto lg:max-w-2xl text-center',
+        title: 'text-4xl md:text-5xl font-bold tracking-tighter mb-4 font-heading',
+        subtitle: 'max-w-3xl mx-auto sm:text-center text-xl text-muted dark:text-slate-400',
+      }}
+    />
+    <div class="mx-auto max-w-7xl px-4 md:px-8 mt-8 md:mt-12">
+      <ItemGrid
+        columns={3}
+        items={[
+          {
+            title: 'Juan Hoyos',
+            description:
+              'Estrategia digital, publicidad y marketing digital, MarTech y tecnología. Empresario. <br/><strong>Enfoque TOP:</strong> UX, contenidos, canales digitales, ingeniería, infraestructura y negocio.',
+            icon: 'tabler:user',
+          },
+          {
+            title: 'Francis Lock',
+            description:
+              'Estrategia y comercialización de medios y publicidad digital. Empresario. <br/><strong>Enfoque TOP:</strong> buy-side Performance Advertising, networks y data analytics.',
+            icon: 'tabler:user',
+          },
+          {
+            title: 'Camilo Gómez',
+            description:
+              'Consultor y (ex)líder regional de business dev. de plataforma AdTech: Google Ad Manager. <br/><strong>Enfoque TOP:</strong> Sell-side AdTech expert, Partner Relations y Cultura TOP.',
+            icon: 'tabler:user',
+          },
+        ]}
+        classes={{
+          container: 'gap-8 md:gap-12',
+          panel:
+            'text-center p-4 rounded-lg bg-white dark:bg-slate-800 shadow-md hover:shadow-lg transition-shadow duration-300',
+          icon: 'w-12 h-12 mx-auto text-blue-600 dark:text-blue-500 mb-4',
+          title: 'text-xl font-semibold text-gray-900 dark:text-white mb-2',
+          description: 'text-sm text-gray-600 dark:text-slate-400',
+        }}
+      />
+    </div>
+  </WidgetWrapper>
 
   <!-- FAQs Widget ******************* -->
 
   <FAQs
-    title="Frequently Asked Questions"
-    subtitle="Dive into the following questions to gain insights into the powerful features that AstroWind offers and how it can elevate your web development journey."
-    tagline="FAQs"
+    title="Preguntas Frecuentes"
+    subtitle="Encuentra respuestas a las dudas más comunes sobre nuestros servicios, tecnología y cómo TopNetworks puede ayudarte a alcanzar tus objetivos."
+    tagline="Resolviendo Dudas"
     classes={{ container: 'max-w-6xl' }}
     items={[
       {
-        title: 'Why AstroWind?',
+        title: '¿Qué es TopNetworks Inc. y a qué se dedica?',
         description:
-          "Michael Knight a young loner on a crusade to champion the cause of the innocent. The helpless. The powerless in a world of criminals who operate above the law. Here he comes Here comes Speed Racer. He's a demon on wheels.",
+          "TopNetworks Inc. es una empresa de tecnología que optimiza la publicidad digital a través de redes programáticas. Nos enfocamos en mejorar la experiencia de usuarios y anunciantes, monetizando su interacción con un modelo 'mobile-first', especialmente en el sector financiero.",
       },
       {
-        title: 'What do I need to start?',
+        title: '¿Cuál es el principal valor que ofrecen a los anunciantes?',
         description:
-          'Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds. Many say exploration is part of our destiny, but it’s actually our duty to future generations.',
+          'Ofrecemos a los anunciantes acceso a audiencias altamente segmentadas y con interés real, mejorando la efectividad de sus campañas. Nuestra plataforma y contenidos generan tasas de interacción muy superiores al promedio del mercado.',
       },
       {
-        title: 'How to install the Astro + Tailwind CSS template?',
+        title: '¿Y qué beneficios obtienen los usuarios?',
         description:
-          "Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows.",
+          'Los usuarios reciben información clara, objetiva y comparativa que les ayuda a tomar decisiones bien fundamentadas, especialmente en temas financieros. Combatimos la saturación publicitaria y la falta de información confiable.',
       },
       {
-        title: "What's something that you don't understand?",
+        title: '¿Qué es el enfoque "mobile-first"?',
         description:
-          "A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.",
+          'Significa que todas nuestras plataformas, contenidos y estrategias están diseñados y optimizados primordialmente para su consumo en dispositivos móviles, donde se concentra la mayor parte de la actividad digital y publicitaria.',
       },
       {
-        title: 'What is something that you would like to try again?',
+        title: '¿Qué tipo de tecnologías utilizan?',
         description:
-          "A business big enough that it could be listed on the NASDAQ goes belly up. Disappears! It ceases to exist without me. No, you clearly don't know who you're talking to, so let me clue you in.",
+          'Utilizamos un conjunto de más de 10 herramientas especializadas para la gestión de contenido, SEO, marketing automation, análisis de datos, publicidad programática (como Google Ad Manager) y optimización de la experiencia de usuario.',
       },
       {
-        title: 'If you could only ask one question to each person you meet, what would that question be?',
+        title: '¿Tienen experiencia comprobada en el mercado?',
         description:
-          "This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.",
+          'Sí, nuestra plataforma TopFinanzas en México ha validado exitosamente nuestro modelo de negocio, alcanzando más de 90,000 usuarios únicos al mes y una tasa de interacción en anuncios del 28.7%. Nuestros fundadores cuentan con más de 15 años de experiencia en el sector.',
       },
     ]}
   />
@@ -367,33 +441,46 @@ const metadata = {
 
   <Stats
     stats={[
-      { title: 'Downloads', amount: '132K' },
-      { title: 'Stars', amount: '24.8K' },
-      { title: 'Forks', amount: '10.3K' },
-      { title: 'Users', amount: '48.4K' },
+      { title: 'Usuarios Únicos/Mes (TopFinanzas MX)', amount: '+90K' },
+      { title: 'CTR Promedio en Anuncios', amount: '28.7%' },
+      { title: 'Artículos Publicados (TopFinanzas MX)', amount: '+200' },
+      { title: 'Expansión Global (Próximamente)', amount: 'USA & UK' },
     ]}
   />
 
-  <!-- CallToAction Widget *********** -->
-
-  <CallToAction
-    actions={[
+  <!-- Contact Widget (Replaces CallToAction) *********** -->
+  <Contact
+    id="contacto"
+    title="Hablemos de tu Proyecto"
+    subtitle="Completa el formulario y nuestro equipo se pondrá en contacto contigo para explorar cómo TopNetworks puede potenciar tu estrategia digital."
+    button="Enviar Mensaje"
+    inputs={[
       {
-        variant: 'primary',
-        text: 'Get template',
-        href: 'https://github.com/onwidget/astrowind',
-        target: '_blank',
-        icon: 'tabler:download',
+        type: 'text',
+        name: 'name',
+        label: 'Nombre completo',
+        placeholder: 'Tu nombre completo',
+      },
+      {
+        type: 'email',
+        name: 'email',
+        label: 'Correo electrónico',
+        placeholder: 'tu.email@ejemplo.com',
       },
     ]}
+    textarea={{
+      label: 'Mensaje',
+      name: 'message',
+      placeholder: 'Escribe tu consulta o requerimiento aquí...',
+      rows: 4,
+    }}
+    disclaimer={{
+      label:
+        'Al enviar este formulario, aceptas nuestra <a class="text-blue-600 hover:underline dark:text-gray-200" href="/privacy">política de privacidad</a>.',
+    }}
   >
-    <Fragment slot="title">
-      Astro&nbsp;+&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Tailwind CSS</span>
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-slate-100 dark:bg-slate-800"></div>
     </Fragment>
-
-    <Fragment slot="subtitle">
-      Be very surprised by these huge fake numbers you are seeing on this page. <br class="hidden md:inline" />Don't
-      waste more time! :P
-    </Fragment>
-  </CallToAction>
+  </Contact>
 </Layout>

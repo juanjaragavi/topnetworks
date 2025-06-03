@@ -1,3 +1,1 @@
-docs: Update documentation files
-
-Updated CHANGELOG.md, README.md, ADRs.md, and DOCUMENTATION.md.
+feat: Enhance landing page with Founders, Marcas, Contact form; fix errors
