@@ -1,50 +1,46 @@
-# 🚀 AstroWind
+# TopNetworks Inc. - Página de Aterrizaje Oficial
 
-<img src="https://raw.githubusercontent.com/onwidget/.github/main/resources/astrowind/lighthouse-score.png" align="right"
-     alt="AstroWind Lighthouse Score" width="100" height="358">
+<img src="https://raw.githubusercontent.com/onwidget/.github/main/resources/astrowind/lighthouse-score.png" align="right" alt="AstroWind Lighthouse Score" width="100" height="358">
 
-🌟 _Most *starred* & *forked* Astro theme in 2022, 2023 & 2024_. 🌟
+**TopNetworks Inc.** es una empresa de tecnología de vanguardia que se especializa en la **optimización de la publicidad digital a través de redes programáticas**. Este repositorio contiene el código fuente de nuestra página de aterrizaje oficial, construida con **[Astro 5.0](https://astro.build/) + [Tailwind CSS](https://tailwindcss.com/)** utilizando la plantilla **Astrowind**.
 
-**AstroWind** is a free and open-source template to make your website using **[Astro 5.0](https://astro.build/) + [Tailwind CSS](https://tailwindcss.com/)**. Ready to start a new project and designed taking into account web best practices.
+Nuestro sitio está diseñado para ser una plataforma "mobile-first", con un enfoque inicial en el dinámico sector financiero, y se dirige a una audiencia de habla hispana.
 
-- ✅ **Production-ready** scores in **PageSpeed Insights** reports.
-- ✅ Integration with **Tailwind CSS** supporting **Dark mode** and **_RTL_**.
-- ✅ **Fast and SEO friendly blog** with automatic **RSS feed**, **MDX** support, **Categories & Tags**, **Social Share**, ...
-- ✅ **Image Optimization** (using new **Astro Assets** and **Unpic** for Universal image CDN).
-- ✅ Generation of **project sitemap** based on your routes.
-- ✅ **Open Graph tags** for social media sharing.
-- ✅ **Analytics** built-in Google Analytics, and Splitbee integration.
+- ✅ **Optimizado para Producción** con excelentes puntuaciones en **PageSpeed Insights**.
+- ✅ Integración con **Tailwind CSS** soportando **Modo Oscuro** y **_RTL_**.
+- ✅ **Blog rápido y amigable para SEO** con **feed RSS automático**, soporte **MDX**, **Categorías y Etiquetas**, **Compartir en Redes Sociales**, etc.
+- ✅ **Optimización de Imágenes** (utilizando **Astro Assets** y **Unpic**).
+- ✅ Generación de **mapa del sitio del proyecto** basado en las rutas.
+- ✅ **Etiquetas Open Graph** para compartir en redes sociales.
+- ✅ **Analíticas** integradas (ej. Google Analytics).
 
 <br>
 
-![AstroWind Theme Screenshot](https://raw.githubusercontent.com/onwidget/.github/main/resources/astrowind/screenshot-astrowind-1.0.png)
+![TopNetworks Screenshot](https://raw.githubusercontent.com/onwidget/.github/main/resources/astrowind/screenshot-astrowind-1.0.png)
+_Nota: La imagen de arriba es una captura de pantalla genérica de la plantilla Astrowind. El diseño real de TopNetworks puede variar._
 
-[![onWidget](https://custom-icon-badges.demolab.com/badge/made%20by%20-onWidget-556bf2?style=flat-square&logo=onwidget&logoColor=white&labelColor=101827)](https://onwidget.com)
-[![License](https://img.shields.io/github/license/onwidget/astrowind?style=flat-square&color=dddddd&labelColor=000000)](https://github.com/onwidget/astrowind/blob/main/LICENSE.md)
-[![Maintained](https://img.shields.io/badge/maintained%3F-yes-brightgreen.svg?style=flat-square)](https://github.com/onwidget)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/onwidget/astrowind#contributing)
-[![Known Vulnerabilities](https://snyk.io/test/github/onwidget/astrowind/badge.svg?style=flat-square)](https://snyk.io/test/github/onwidget/astrowind)
-[![Stars](https://img.shields.io/github/stars/onwidget/astrowind.svg?style=social&label=stars&maxAge=86400&color=ff69b4)](https://github.com/onwidget/astrowind)
-[![Forks](https://img.shields.io/github/forks/onwidget/astrowind.svg?style=social&label=forks&maxAge=86400&color=ff69b4)](https://github.com/onwidget/astrowind)
+[![TopNetworks Inc.](https://custom-icon-badges.demolab.com/badge/desarrollado%20por%20-TopNetworks%20Inc.-556bf2?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+VG9wTmV0d29ya3M8L3RpdGxlPjxwYXRoIGQ9Ik0xMiAwQzUuMzcyIDAgMCA1LjM3MyAwIDEyczUuMzcyIDEyIDEyIDEyIDEyLTUuMzcyIDEyLTEyUzE4LjYyNyAwIDEyIDB6bTAgMjEuODhjLTUuNDU2IDAtOS44OC00LjQyNC05Ljg4LTkuODg0UzYuNTQ0IDIuMTIgMTIgMi4xMnM5Ljg4IDQuNDI0IDkuODggOS44ODQtNC40MjQgOS44OC05Ljg4IDkuODh6TTQgMTJoMWMwLTQuNDExIDMuNTg5LTggOC04czggMy41ODkgOCA4YzAgNC40MTEtMy41ODkgOC04IDhWMTJINGMtLjU1MiAwLTEgLjQ0OC0xIDBzLjQ0OCAxIDEgMWgxLjA4YzEuMDk0LS4wMzMgMi4xNjQtLjM0IDMuMDk0LS44NzNsLTEuNDQtMS40NEExLjUgMS41IDAgMCAxIDQgMTJ6bTE0LjQ4NS0xLjQ4NWwtMS40MTQgMS40MTRjMS4zMS45NzMgMi45MDQgMS41NzEgNC42MTkgMS41NzFoLjAxYy4xNTIgMCAuMjk4LS4wMzQuNDM0LS4wOTVBOS45MzUgOS45MzUgMCAwIDAgMjAuNTYgMTJoLTEuMDgxYy0xLjA5NS4wMzQtMi4xNjUuMzQtMy4wOTUuODc0eiIvPjwvc3ZnPg==&logoColor=white&labelColor=101827)](https://topnetworks.com) <!-- Reemplazar con el logo y URL real -->
+[![License](https://img.shields.io/github/license/juanjaragavi/topnetworks?style=flat-square&color=dddddd&labelColor=000000)](https://github.com/juanjaragavi/topnetworks/blob/main/LICENSE.md)
+[![Maintained](https://img.shields.io/badge/mantenido%3F-s%C3%AD-brightgreen.svg?style=flat-square)](https://github.com/juanjaragavi/topnetworks)
+[![Contributions Welcome](https://img.shields.io/badge/contribuciones-bienvenidas-brightgreen.svg?style=flat-square)](https://github.com/juanjaragavi/topnetworks#contributing)
+[![Stars](https://img.shields.io/github/stars/juanjaragavi/topnetworks.svg?style=social&label=stars&maxAge=86400&color=ff69b4)](https://github.com/juanjaragavi/topnetworks)
+[![Forks](https://img.shields.io/github/forks/juanjaragavi/topnetworks.svg?style=social&label=forks&maxAge=86400&color=ff69b4)](https://github.com/juanjaragavi/topnetworks)
 
 <br>
 
 <details open>
-<summary>Table of Contents</summary>
+<summary>Tabla de Contenidos</summary>
 
 - [Demo](#demo)
-- [Upcoming: AstroWind 2.0 – We Need Your Vision!](#-upcoming-astrowind-20--we-need-your-vision)
-- [TL;DR](#tldr)
-- [Getting started](#getting-started)
-  - [Project structure](#project-structure)
-  - [Commands](#commands)
-  - [Configuration](#configuration)
-  - [Deploy](#deploy)
-- [Frequently Asked Questions](#frequently-asked-questions)
-- [Related Projects](#related-projects)
-- [Contributing](#contributing)
-- [Acknowledgements](#acknowledgements)
-- [License](#license)
+- [Primeros Pasos](#primeros-pasos)
+  - [Estructura del Proyecto](#estructura-del-proyecto)
+  - [Comandos](#comandos)
+  - [Configuración](#configuración)
+  - [Despliegue](#despliegue)
+- [Documentación del Proyecto](#documentación-del-proyecto)
+- [Contribuciones](#contribuciones)
+- [Agradecimientos](#agradecimientos)
+- [Licencia](#licencia)
 
 </details>
 
@@ -52,36 +48,20 @@
 
 ## Demo
 
-📌 [https://astrowind.vercel.app/](https://astrowind.vercel.app/)
+📌 El sitio oficial de TopNetworks Inc. estará disponible en [topnetworks.com](https://topnetworks.com) (URL provisional).
+El repositorio del proyecto se encuentra en [GitHub](https://github.com/juanjaragavi/topnetworks.git).
 
 <br>
 
-## 🔔 Upcoming: AstroWind 2.0 – We Need Your Vision!
+## Primeros Pasos
 
-We're embarking on an exciting journey with **AstroWind 2.0**, and we want you to be a part of it! We're currently taking the first steps in developing this new version and your insights are invaluable. Join the discussion and share your feedback, ideas, and suggestions to help shape the future of **AstroWind**. Let's make **AstroWind 2.0** even better, together!
+Este proyecto utiliza [Astro 5.0](https://astro.build/) + [Tailwind CSS](https://tailwindcss.com/) y está basado en la plantilla Astrowind. Está enfocado en la simplicidad, buenas prácticas y alto rendimiento.
 
-[Share Your Feedback in Our Discussion!](https://github.com/onwidget/astrowind/discussions/392)
+Se utiliza muy poco JavaScript vanilla, solo para proporcionar funcionalidades básicas, de modo que cada desarrollador decida qué framework (React, Vue, Svelte, Solid JS...) usar y cómo abordar sus objetivos.
 
-<br>
+### Estructura del Proyecto
 
-
-## TL;DR
-
-```shell
-npm create astro@latest -- --template onwidget/astrowind
-```
-
-## Getting started
-
-**AstroWind** tries to give you quick access to creating a website using [Astro 5.0](https://astro.build/) + [Tailwind CSS](https://tailwindcss.com/). It's a free theme which focuses on simplicity, good practices and high performance.
-
-Very little vanilla javascript is used only to provide basic functionality so that each developer decides which framework (React, Vue, Svelte, Solid JS...) to use and how to approach their goals.
-
-In this version the template supports all the options in the `output` configuration, `static`, `hybrid` and `server`, but the blog only works with `prerender = true`. We are working on the next version and aim to make it fully compatible with SSR.
-
-### Project structure
-
-Inside **AstroWind** template, you'll see the following folders and files:
+Dentro del proyecto TopNetworks, encontrarás la siguiente estructura de carpetas y archivos (heredada de Astrowind):
 
 ```
 /
@@ -132,172 +112,153 @@ Inside **AstroWind** template, you'll see the following folders and files:
 └── ...
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Astro busca archivos `.astro` o `.md` en el directorio `src/pages/`. Cada página se expone como una ruta basada en su nombre de archivo.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Los activos estáticos, como imágenes, se pueden colocar en el directorio `public/` si no requieren transformación, o en `src/assets/` si se importan directamente.
 
-Any static assets, like images, can be placed in the `public/` directory if they do not require any transformation or in the `assets/` directory if they are imported directly.
-
-[![Edit AstroWind on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://githubbox.com/onwidget/astrowind/tree/main) [![Open in Gitpod](https://svgshare.com/i/xdi.svg)](https://gitpod.io/?on=gitpod#https://github.com/onwidget/astrowind) [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/onwidget/astrowind)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file `README.md`. Update `src/config.yaml` and contents. Have fun!
+> 🧑‍🚀 Para desarrolladores de TopNetworks: Consultar `src/lib/documents/DOCUMENTATION.md` para detalles específicos del proyecto. Actualizar `src/config.yaml` y los contenidos según sea necesario.
 
 <br>
 
-### Commands
+### Comandos
 
-All commands are run from the root of the project, from a terminal:
+Todos los comandos se ejecutan desde la raíz del proyecto, en una terminal:
 
-| Command             | Action                                             |
-| :------------------ | :------------------------------------------------- |
-| `npm install`       | Installs dependencies                              |
-| `npm run dev`       | Starts local dev server at `localhost:4321`        |
-| `npm run build`     | Build your production site to `./dist/`            |
-| `npm run preview`   | Preview your build locally, before deploying       |
-| `npm run check`     | Check your project for errors                      |
-| `npm run fix`       | Run Eslint and format codes with Prettier          |
-| `npm run astro ...` | Run CLI commands like `astro add`, `astro preview` |
+| Comando             | Acción                                               |
+| :------------------ | :--------------------------------------------------- |
+| `npm install`       | Instala las dependencias                             |
+| `npm run dev`       | Inicia el servidor de desarrollo local en `localhost:4321` |
+| `npm run build`     | Construye el sitio de producción en `./dist/`        |
+| `npm run preview`   | Previsualiza la construcción localmente, antes de desplegar |
+| `npm run check`     | Verifica errores en el proyecto                      |
+| `npm run fix`       | Ejecuta Eslint y formatea el código con Prettier     |
+| `npm run astro ...` | Ejecuta comandos CLI como `astro add`, `astro preview` |
 
 <br>
 
-### Configuration
+### Configuración
 
-Basic configuration file: `./src/config.yaml`
+Archivo de configuración básico: `./src/config.yaml`
+
+Asegúrate de que la configuración en `src/config.yaml` refleje los detalles del sitio de TopNetworks, como el nombre del sitio, URL base, metadatos SEO, idioma (español), etc.
 
 ```yaml
 site:
-  name: 'Example'
-  site: 'https://example.com'
-  base: '/' # Change this if you need to deploy to Github Pages, for example
-  trailingSlash: false # Generate permalinks with or without "/" at the end
+  name: 'TopNetworks Inc.'
+  site: 'https://topnetworks.com' # URL Provisional
+  base: '/'
+  trailingSlash: false
 
-  googleSiteVerificationId: false # Or some value,
+  googleSiteVerificationId: false # Configurar si es necesario
 
-# Default SEO metadata
+# Metadatos SEO por defecto
 metadata:
   title:
-    default: 'Example'
-    template: '%s — Example'
-  description: 'This is the default meta description of Example website'
+    default: 'TopNetworks Inc. - Soluciones Financieras y Educación'
+    template: '%s — TopNetworks Inc.'
+  description: 'TopNetworks optimiza la publicidad digital y ofrece contenido financiero de valor para la comunidad de habla hispana.'
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: 'Example'
+    site_name: 'TopNetworks Inc.'
     images:
-      - url: '~/assets/images/default.png'
+      - url: '~/assets/images/default.png' # Reemplazar con una imagen representativa de TopNetworks
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: '@twitter_user'
-    site: '@twitter_user'
+    handle: '@TopNetworksES' # Reemplazar con el handle real si existe
+    site: '@TopNetworksES'   # Reemplazar con el handle real si existe
     cardType: summary_large_image
 
 i18n:
-  language: en
+  language: es # Configurado para español
   textDirection: ltr
 
 apps:
   blog:
-    isEnabled: true # If the blog will be enabled
-    postsPerPage: 6 # Number of posts per page
+    isEnabled: true # Habilitar si TopNetworks tendrá un blog
+    postsPerPage: 6
 
     post:
       isEnabled: true
-      permalink: '/blog/%slug%' # Variables: %slug%, %year%, %month%, %day%, %hour%, %minute%, %second%, %category%
+      permalink: '/blog/%slug%'
       robots:
         index: true
 
     list:
       isEnabled: true
-      pathname: 'blog' # Blog main path, you can change this to "articles" (/articles)
+      pathname: 'blog'
       robots:
         index: true
 
     category:
       isEnabled: true
-      pathname: 'category' # Category main path /category/some-category, you can change this to "group" (/group/some-category)
+      pathname: 'categoria' # Ajustado a español
       robots:
         index: true
 
     tag:
       isEnabled: true
-      pathname: 'tag' # Tag main path /tag/some-tag, you can change this to "topics" (/topics/some-category)
+      pathname: 'etiqueta' # Ajustado a español
       robots:
         index: false
 
-    isRelatedPostsEnabled: true # If a widget with related posts is to be displayed below each post
-    relatedPostsCount: 4 # Number of related posts to display
+    isRelatedPostsEnabled: true
+    relatedPostsCount: 4
 
 analytics:
   vendors:
     googleAnalytics:
-      id: null # or "G-XXXXXXXXXX"
+      id: null # Configurar con el ID de Google Analytics de TopNetworks
 
 ui:
-  theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
+  theme: 'system'
 ```
 
 <br>
 
-#### Customize Design
+#### Personalizar Diseño
 
-To customize Font families, Colors or more Elements refer to the following files:
+Para personalizar familias de fuentes, colores o más elementos, consulta los siguientes archivos:
 
 - `src/components/CustomStyles.astro`
 - `src/assets/styles/tailwind.css`
+- `src/lib/documents/Pitch-Inversionistas-Top-Networks-2024.pdf` (para la paleta de colores y directrices de diseño).
 
-### Deploy
+### Despliegue
 
-#### Deploy to production (manual)
+#### Despliegue a producción (manual)
 
-You can create an optimized production build with:
+Puedes crear una compilación de producción optimizada con:
 
 ```shell
 npm run build
 ```
 
-Now, your website is ready to be deployed. All generated files are located at
-`dist` folder, which you can deploy the folder to any hosting service you
-prefer.
+Ahora, tu sitio web está listo para ser desplegado. Todos los archivos generados se encuentran en la carpeta `dist`, la cual puedes desplegar en cualquier servicio de hosting de tu preferencia.
 
-#### Deploy to Netlify
+#### Despliegue a Netlify o Vercel
 
-Clone this repository on your own GitHub account and deploy it to Netlify:
-
-[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/onwidget/astrowind)
-
-#### Deploy to Vercel
-
-Clone this repository on your own GitHub account and deploy to Vercel:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fonwidget%2Fastrowind)
+Puedes clonar este repositorio (`https://github.com/juanjaragavi/topnetworks.git`) en tu propia cuenta de GitHub y desplegarlo en servicios como Netlify o Vercel.
 
 <br>
 
-## Frequently Asked Questions
+## Documentación del Proyecto
 
-- Why?
--
--
+Para una guía detallada sobre la arquitectura, directrices de desarrollo, y contexto del negocio de TopNetworks, por favor consulta:
 
-<br>
+- **`src/lib/documents/DOCUMENTATION.md`**
 
-## Related projects
+## Contribuciones
 
-- [TailNext](https://tailnext.vercel.app/) - Free template using Next.js 14 and Tailwind CSS with the new App Router.
-- [Qwind](https://qwind.pages.dev/) - Free template to make your website using Qwik + Tailwind CSS.
+Si tienes ideas, sugerencias o encuentras errores, no dudes en abrir una discusión, un issue o crear un pull request en el repositorio [juanjaragavi/topnetworks](https://github.com/juanjaragavi/topnetworks).
 
-## Contributing
+## Agradecimientos
 
-If you have any ideas, suggestions or find any bugs, feel free to open a discussion, an issue or create a pull request.
-That would be very useful for all of us and we would be happy to listen and take action.
+Este proyecto es desarrollado por **TopNetworks Inc.** y está basado en la plantilla **AstroWind** creada por [onWidget](https://onwidget.com) y mantenida por una comunidad de [colaboradores](https://github.com/onwidget/astrowind/graphs/contributors).
 
-## Acknowledgements
+## Licencia
 
-Initially created by [onWidget](https://onwidget.com) and maintained by a community of [contributors](https://github.com/onwidget/astrowind/graphs/contributors).
-
-## License
-
-**AstroWind** is licensed under the MIT license — see the [LICENSE](./LICENSE.md) file for details.
+El código específico de TopNetworks Inc. está bajo la licencia definida por la empresa. La plantilla Astrowind está licenciada bajo MIT — consulta el archivo [LICENSE](./LICENSE.md) para más detalles sobre la licencia de la plantilla.

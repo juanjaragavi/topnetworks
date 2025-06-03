@@ -1,5 +1,3 @@
-docs: Update project repository link in guidelines
+docs: Update documentation files
 
-- Added GitHub repository link to project specifics section
-- Changed from generic "hosted on GitHub" to specific repository URL  
-- Improved project documentation clarity and accessibility
+Updated CHANGELOG.md, README.md, ADRs.md, and DOCUMENTATION.md.
