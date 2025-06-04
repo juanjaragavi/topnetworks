@@ -1,0 +1,511 @@
+2025-06-04T22:37:29: 
+2025-06-04T22:37:29: > @topnetworks/topnwetworks@1.0.0 preview
+2025-06-04T22:37:29: > astro preview --port 5000
+2025-06-04T22:37:29: 
+2025-06-04T22:37:30: ▶ Astro collects anonymous usage data.
+2025-06-04T22:37:30:   This information helps us improve Astro.
+2025-06-04T22:37:30:   Run "astro telemetry disable" to opt-out.
+2025-06-04T22:37:30:   https://astro.build/telemetry
+2025-06-04T22:37:30: 
+2025-06-04T22:37:30: 10:37:30 PM [vite] (ssr) Error when evaluating SSR module /var/www/html/topnetworks/astro.config.ts: Transform failed with 1 error:
+2025-06-04T22:37:30: /var/www/html/topnetworks/astro.config.ts:99:0: ERROR: Unexpected "}"
+2025-06-04T22:37:30:   Plugin: vite:esbuild
+2025-06-04T22:37:30:   File: /var/www/html/topnetworks/astro.config.ts:99:0
+2025-06-04T22:37:30:   
+2025-06-04T22:37:30:   Unexpected "}"
+2025-06-04T22:37:30:   97 |      }
+2025-06-04T22:37:30:   98 |    },
+2025-06-04T22:37:30:   99 |  });
+2025-06-04T22:37:30:      |  ^
+2025-06-04T22:37:30:   100|  
+2025-06-04T22:37:30:   
+2025-06-04T22:37:30:       at failureErrorWithLog (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:1477:15)
+2025-06-04T22:37:30:       at /var/www/html/topnetworks/node_modules/esbuild/lib/main.js:756:50
+2025-06-04T22:37:30:       at responseCallbacks.<computed> (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:623:9)
+2025-06-04T22:37:30:       at handleIncomingPacket (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:678:12)
+2025-06-04T22:37:30:       at Socket.readFromStdout (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:601:7)
+2025-06-04T22:37:30:       at Socket.emit (node:events:524:28)
+2025-06-04T22:37:30:       at addChunk (node:internal/streams/readable:561:12)
+2025-06-04T22:37:30:       at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+2025-06-04T22:37:30:       at Readable.push (node:internal/streams/readable:392:5)
+2025-06-04T22:37:30:       at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2025-06-04T22:37:30: [astro] Unable to load your Astro config
+2025-06-04T22:37:30: 
+2025-06-04T22:37:30: Unexpected "}"
+2025-06-04T22:37:30:   Location:
+2025-06-04T22:37:30:     /var/www/html/topnetworks/astro.config.ts:99:0
+2025-06-04T22:37:30:   Stack trace:
+2025-06-04T22:37:30:     at failureErrorWithLog (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:1477:15)
+2025-06-04T22:37:30:     at responseCallbacks.<computed> (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:623:9)
+2025-06-04T22:37:30:     at Socket.readFromStdout (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:601:7)
+2025-06-04T22:37:30:     at addChunk (node:internal/streams/readable:561:12)
+2025-06-04T22:37:30:     at Readable.push (node:internal/streams/readable:392:5)
+2025-06-04T22:37:35: 
+2025-06-04T22:37:35: > @topnetworks/topnwetworks@1.0.0 preview
+2025-06-04T22:37:35: > astro preview --port 5000
+2025-06-04T22:37:35: 
+2025-06-04T22:37:36: 10:37:36 PM [vite] (ssr) Error when evaluating SSR module /var/www/html/topnetworks/astro.config.ts: Transform failed with 1 error:
+2025-06-04T22:37:36: /var/www/html/topnetworks/astro.config.ts:99:0: ERROR: Unexpected "}"
+2025-06-04T22:37:36:   Plugin: vite:esbuild
+2025-06-04T22:37:36:   File: /var/www/html/topnetworks/astro.config.ts:99:0
+2025-06-04T22:37:36:   
+2025-06-04T22:37:36:   Unexpected "}"
+2025-06-04T22:37:36:   97 |      }
+2025-06-04T22:37:36:   98 |    },
+2025-06-04T22:37:36:   99 |  });
+2025-06-04T22:37:36:      |  ^
+2025-06-04T22:37:36:   100|  
+2025-06-04T22:37:36:   
+2025-06-04T22:37:36:       at failureErrorWithLog (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:1477:15)
+2025-06-04T22:37:36:       at /var/www/html/topnetworks/node_modules/esbuild/lib/main.js:756:50
+2025-06-04T22:37:36:       at responseCallbacks.<computed> (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:623:9)
+2025-06-04T22:37:36:       at handleIncomingPacket (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:678:12)
+2025-06-04T22:37:36:       at Socket.readFromStdout (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:601:7)
+2025-06-04T22:37:36:       at Socket.emit (node:events:524:28)
+2025-06-04T22:37:36:       at addChunk (node:internal/streams/readable:561:12)
+2025-06-04T22:37:36:       at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+2025-06-04T22:37:36:       at Readable.push (node:internal/streams/readable:392:5)
+2025-06-04T22:37:36:       at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2025-06-04T22:37:36: [astro] Unable to load your Astro config
+2025-06-04T22:37:36: 
+2025-06-04T22:37:36: Unexpected "}"
+2025-06-04T22:37:36:   Location:
+2025-06-04T22:37:36:     /var/www/html/topnetworks/astro.config.ts:99:0
+2025-06-04T22:37:36:   Stack trace:
+2025-06-04T22:37:36:     at failureErrorWithLog (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:1477:15)
+2025-06-04T22:37:36:     at responseCallbacks.<computed> (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:623:9)
+2025-06-04T22:37:36:     at Socket.readFromStdout (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:601:7)
+2025-06-04T22:37:36:     at addChunk (node:internal/streams/readable:561:12)
+2025-06-04T22:37:36:     at Readable.push (node:internal/streams/readable:392:5)
+2025-06-04T22:37:41: 
+2025-06-04T22:37:41: > @topnetworks/topnwetworks@1.0.0 preview
+2025-06-04T22:37:41: > astro preview --port 5000
+2025-06-04T22:37:41: 
+2025-06-04T22:37:42: 10:37:42 PM [vite] (ssr) Error when evaluating SSR module /var/www/html/topnetworks/astro.config.ts: Transform failed with 1 error:
+2025-06-04T22:37:42: /var/www/html/topnetworks/astro.config.ts:99:0: ERROR: Unexpected "}"
+2025-06-04T22:37:42:   Plugin: vite:esbuild
+2025-06-04T22:37:42:   File: /var/www/html/topnetworks/astro.config.ts:99:0
+2025-06-04T22:37:42:   
+2025-06-04T22:37:42:   Unexpected "}"
+2025-06-04T22:37:42:   97 |      }
+2025-06-04T22:37:42:   98 |    },
+2025-06-04T22:37:42:   99 |  });
+2025-06-04T22:37:42:      |  ^
+2025-06-04T22:37:42:   100|  
+2025-06-04T22:37:42:   
+2025-06-04T22:37:42:       at failureErrorWithLog (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:1477:15)
+2025-06-04T22:37:42:       at /var/www/html/topnetworks/node_modules/esbuild/lib/main.js:756:50
+2025-06-04T22:37:42:       at responseCallbacks.<computed> (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:623:9)
+2025-06-04T22:37:42:       at handleIncomingPacket (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:678:12)
+2025-06-04T22:37:42:       at Socket.readFromStdout (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:601:7)
+2025-06-04T22:37:42:       at Socket.emit (node:events:524:28)
+2025-06-04T22:37:42:       at addChunk (node:internal/streams/readable:561:12)
+2025-06-04T22:37:42:       at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+2025-06-04T22:37:42:       at Readable.push (node:internal/streams/readable:392:5)
+2025-06-04T22:37:42:       at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2025-06-04T22:37:42: [astro] Unable to load your Astro config
+2025-06-04T22:37:42: 
+2025-06-04T22:37:42: Unexpected "}"
+2025-06-04T22:37:42:   Location:
+2025-06-04T22:37:42:     /var/www/html/topnetworks/astro.config.ts:99:0
+2025-06-04T22:37:42:   Stack trace:
+2025-06-04T22:37:42:     at failureErrorWithLog (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:1477:15)
+2025-06-04T22:37:42:     at responseCallbacks.<computed> (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:623:9)
+2025-06-04T22:37:42:     at Socket.readFromStdout (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:601:7)
+2025-06-04T22:37:42:     at addChunk (node:internal/streams/readable:561:12)
+2025-06-04T22:37:42:     at Readable.push (node:internal/streams/readable:392:5)
+2025-06-04T22:37:47: 
+2025-06-04T22:37:47: > @topnetworks/topnwetworks@1.0.0 preview
+2025-06-04T22:37:47: > astro preview --port 5000
+2025-06-04T22:37:47: 
+2025-06-04T22:37:48: 10:37:48 PM [vite] (ssr) Error when evaluating SSR module /var/www/html/topnetworks/astro.config.ts: Transform failed with 1 error:
+2025-06-04T22:37:48: /var/www/html/topnetworks/astro.config.ts:99:0: ERROR: Unexpected "}"
+2025-06-04T22:37:48:   Plugin: vite:esbuild
+2025-06-04T22:37:48:   File: /var/www/html/topnetworks/astro.config.ts:99:0
+2025-06-04T22:37:48:   
+2025-06-04T22:37:48:   Unexpected "}"
+2025-06-04T22:37:48:   97 |      }
+2025-06-04T22:37:48:   98 |    },
+2025-06-04T22:37:48:   99 |  });
+2025-06-04T22:37:48:      |  ^
+2025-06-04T22:37:48:   100|  
+2025-06-04T22:37:48:   
+2025-06-04T22:37:48:       at failureErrorWithLog (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:1477:15)
+2025-06-04T22:37:48:       at /var/www/html/topnetworks/node_modules/esbuild/lib/main.js:756:50
+2025-06-04T22:37:48:       at responseCallbacks.<computed> (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:623:9)
+2025-06-04T22:37:48:       at handleIncomingPacket (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:678:12)
+2025-06-04T22:37:48:       at Socket.readFromStdout (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:601:7)
+2025-06-04T22:37:48:       at Socket.emit (node:events:524:28)
+2025-06-04T22:37:48:       at addChunk (node:internal/streams/readable:561:12)
+2025-06-04T22:37:48:       at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+2025-06-04T22:37:48:       at Readable.push (node:internal/streams/readable:392:5)
+2025-06-04T22:37:48:       at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2025-06-04T22:37:48: [astro] Unable to load your Astro config
+2025-06-04T22:37:48: 
+2025-06-04T22:37:48: Unexpected "}"
+2025-06-04T22:37:48:   Location:
+2025-06-04T22:37:48:     /var/www/html/topnetworks/astro.config.ts:99:0
+2025-06-04T22:37:48:   Stack trace:
+2025-06-04T22:37:48:     at failureErrorWithLog (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:1477:15)
+2025-06-04T22:37:48:     at responseCallbacks.<computed> (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:623:9)
+2025-06-04T22:37:48:     at Socket.readFromStdout (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:601:7)
+2025-06-04T22:37:48:     at addChunk (node:internal/streams/readable:561:12)
+2025-06-04T22:37:48:     at Readable.push (node:internal/streams/readable:392:5)
+2025-06-04T22:37:53: 
+2025-06-04T22:37:53: > @topnetworks/topnwetworks@1.0.0 preview
+2025-06-04T22:37:53: > astro preview --port 5000
+2025-06-04T22:37:53: 
+2025-06-04T22:37:54: 10:37:54 PM [vite] (ssr) Error when evaluating SSR module /var/www/html/topnetworks/astro.config.ts: Transform failed with 1 error:
+2025-06-04T22:37:54: /var/www/html/topnetworks/astro.config.ts:99:0: ERROR: Unexpected "}"
+2025-06-04T22:37:54:   Plugin: vite:esbuild
+2025-06-04T22:37:54:   File: /var/www/html/topnetworks/astro.config.ts:99:0
+2025-06-04T22:37:54:   
+2025-06-04T22:37:54:   Unexpected "}"
+2025-06-04T22:37:54:   97 |      }
+2025-06-04T22:37:54:   98 |    },
+2025-06-04T22:37:54:   99 |  });
+2025-06-04T22:37:54:      |  ^
+2025-06-04T22:37:54:   100|  
+2025-06-04T22:37:54:   
+2025-06-04T22:37:54:       at failureErrorWithLog (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:1477:15)
+2025-06-04T22:37:54:       at /var/www/html/topnetworks/node_modules/esbuild/lib/main.js:756:50
+2025-06-04T22:37:54:       at responseCallbacks.<computed> (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:623:9)
+2025-06-04T22:37:54:       at handleIncomingPacket (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:678:12)
+2025-06-04T22:37:54:       at Socket.readFromStdout (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:601:7)
+2025-06-04T22:37:54:       at Socket.emit (node:events:524:28)
+2025-06-04T22:37:54:       at addChunk (node:internal/streams/readable:561:12)
+2025-06-04T22:37:54:       at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+2025-06-04T22:37:54:       at Readable.push (node:internal/streams/readable:392:5)
+2025-06-04T22:37:54:       at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2025-06-04T22:37:54: [astro] Unable to load your Astro config
+2025-06-04T22:37:54: 
+2025-06-04T22:37:54: Unexpected "}"
+2025-06-04T22:37:54:   Location:
+2025-06-04T22:37:54:     /var/www/html/topnetworks/astro.config.ts:99:0
+2025-06-04T22:37:54:   Stack trace:
+2025-06-04T22:37:54:     at failureErrorWithLog (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:1477:15)
+2025-06-04T22:37:54:     at responseCallbacks.<computed> (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:623:9)
+2025-06-04T22:37:54:     at Socket.readFromStdout (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:601:7)
+2025-06-04T22:37:54:     at addChunk (node:internal/streams/readable:561:12)
+2025-06-04T22:37:54:     at Readable.push (node:internal/streams/readable:392:5)
+2025-06-04T22:37:59: 
+2025-06-04T22:37:59: > @topnetworks/topnwetworks@1.0.0 preview
+2025-06-04T22:37:59: > astro preview --port 5000
+2025-06-04T22:37:59: 
+2025-06-04T22:38:00: 10:38:00 PM [vite] (ssr) Error when evaluating SSR module /var/www/html/topnetworks/astro.config.ts: Transform failed with 1 error:
+2025-06-04T22:38:00: /var/www/html/topnetworks/astro.config.ts:99:0: ERROR: Unexpected "}"
+2025-06-04T22:38:00:   Plugin: vite:esbuild
+2025-06-04T22:38:00:   File: /var/www/html/topnetworks/astro.config.ts:99:0
+2025-06-04T22:38:00:   
+2025-06-04T22:38:00:   Unexpected "}"
+2025-06-04T22:38:00:   97 |      }
+2025-06-04T22:38:00:   98 |    },
+2025-06-04T22:38:00:   99 |  });
+2025-06-04T22:38:00:      |  ^
+2025-06-04T22:38:00:   100|  
+2025-06-04T22:38:00:   
+2025-06-04T22:38:00:       at failureErrorWithLog (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:1477:15)
+2025-06-04T22:38:00:       at /var/www/html/topnetworks/node_modules/esbuild/lib/main.js:756:50
+2025-06-04T22:38:00:       at responseCallbacks.<computed> (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:623:9)
+2025-06-04T22:38:00:       at handleIncomingPacket (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:678:12)
+2025-06-04T22:38:00:       at Socket.readFromStdout (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:601:7)
+2025-06-04T22:38:00:       at Socket.emit (node:events:524:28)
+2025-06-04T22:38:00:       at addChunk (node:internal/streams/readable:561:12)
+2025-06-04T22:38:00:       at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+2025-06-04T22:38:00:       at Readable.push (node:internal/streams/readable:392:5)
+2025-06-04T22:38:00:       at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2025-06-04T22:38:00: [astro] Unable to load your Astro config
+2025-06-04T22:38:00: 
+2025-06-04T22:38:00: Unexpected "}"
+2025-06-04T22:38:00:   Location:
+2025-06-04T22:38:00:     /var/www/html/topnetworks/astro.config.ts:99:0
+2025-06-04T22:38:00:   Stack trace:
+2025-06-04T22:38:00:     at failureErrorWithLog (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:1477:15)
+2025-06-04T22:38:00:     at responseCallbacks.<computed> (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:623:9)
+2025-06-04T22:38:00:     at Socket.readFromStdout (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:601:7)
+2025-06-04T22:38:00:     at addChunk (node:internal/streams/readable:561:12)
+2025-06-04T22:38:00:     at Readable.push (node:internal/streams/readable:392:5)
+2025-06-04T22:38:05: 
+2025-06-04T22:38:05: > @topnetworks/topnwetworks@1.0.0 preview
+2025-06-04T22:38:05: > astro preview --port 5000
+2025-06-04T22:38:05: 
+2025-06-04T22:38:06: 10:38:06 PM [vite] (ssr) Error when evaluating SSR module /var/www/html/topnetworks/astro.config.ts: Transform failed with 1 error:
+2025-06-04T22:38:06: /var/www/html/topnetworks/astro.config.ts:99:0: ERROR: Unexpected "}"
+2025-06-04T22:38:06:   Plugin: vite:esbuild
+2025-06-04T22:38:06:   File: /var/www/html/topnetworks/astro.config.ts:99:0
+2025-06-04T22:38:06:   
+2025-06-04T22:38:06:   Unexpected "}"
+2025-06-04T22:38:06:   97 |      }
+2025-06-04T22:38:06:   98 |    },
+2025-06-04T22:38:06:   99 |  });
+2025-06-04T22:38:06:      |  ^
+2025-06-04T22:38:06:   100|  
+2025-06-04T22:38:06:   
+2025-06-04T22:38:06:       at failureErrorWithLog (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:1477:15)
+2025-06-04T22:38:06:       at /var/www/html/topnetworks/node_modules/esbuild/lib/main.js:756:50
+2025-06-04T22:38:06:       at responseCallbacks.<computed> (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:623:9)
+2025-06-04T22:38:06:       at handleIncomingPacket (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:678:12)
+2025-06-04T22:38:06:       at Socket.readFromStdout (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:601:7)
+2025-06-04T22:38:06:       at Socket.emit (node:events:524:28)
+2025-06-04T22:38:06:       at addChunk (node:internal/streams/readable:561:12)
+2025-06-04T22:38:06:       at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+2025-06-04T22:38:06:       at Readable.push (node:internal/streams/readable:392:5)
+2025-06-04T22:38:06:       at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2025-06-04T22:38:06: [astro] Unable to load your Astro config
+2025-06-04T22:38:06: 
+2025-06-04T22:38:06: Unexpected "}"
+2025-06-04T22:38:06:   Location:
+2025-06-04T22:38:06:     /var/www/html/topnetworks/astro.config.ts:99:0
+2025-06-04T22:38:06:   Stack trace:
+2025-06-04T22:38:06:     at failureErrorWithLog (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:1477:15)
+2025-06-04T22:38:06:     at responseCallbacks.<computed> (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:623:9)
+2025-06-04T22:38:06:     at Socket.readFromStdout (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:601:7)
+2025-06-04T22:38:06:     at addChunk (node:internal/streams/readable:561:12)
+2025-06-04T22:38:06:     at Readable.push (node:internal/streams/readable:392:5)
+2025-06-04T22:38:11: 
+2025-06-04T22:38:11: > @topnetworks/topnwetworks@1.0.0 preview
+2025-06-04T22:38:11: > astro preview --port 5000
+2025-06-04T22:38:11: 
+2025-06-04T22:38:12: 10:38:12 PM [vite] (ssr) Error when evaluating SSR module /var/www/html/topnetworks/astro.config.ts: Transform failed with 1 error:
+2025-06-04T22:38:12: /var/www/html/topnetworks/astro.config.ts:99:0: ERROR: Unexpected "}"
+2025-06-04T22:38:12:   Plugin: vite:esbuild
+2025-06-04T22:38:12:   File: /var/www/html/topnetworks/astro.config.ts:99:0
+2025-06-04T22:38:12:   
+2025-06-04T22:38:12:   Unexpected "}"
+2025-06-04T22:38:12:   97 |      }
+2025-06-04T22:38:12:   98 |    },
+2025-06-04T22:38:12:   99 |  });
+2025-06-04T22:38:12:      |  ^
+2025-06-04T22:38:12:   100|  
+2025-06-04T22:38:12:   
+2025-06-04T22:38:12:       at failureErrorWithLog (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:1477:15)
+2025-06-04T22:38:12:       at /var/www/html/topnetworks/node_modules/esbuild/lib/main.js:756:50
+2025-06-04T22:38:12:       at responseCallbacks.<computed> (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:623:9)
+2025-06-04T22:38:12:       at handleIncomingPacket (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:678:12)
+2025-06-04T22:38:12:       at Socket.readFromStdout (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:601:7)
+2025-06-04T22:38:12:       at Socket.emit (node:events:524:28)
+2025-06-04T22:38:12:       at addChunk (node:internal/streams/readable:561:12)
+2025-06-04T22:38:12:       at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+2025-06-04T22:38:12:       at Readable.push (node:internal/streams/readable:392:5)
+2025-06-04T22:38:12:       at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2025-06-04T22:38:12: [astro] Unable to load your Astro config
+2025-06-04T22:38:12: 
+2025-06-04T22:38:12: Unexpected "}"
+2025-06-04T22:38:12:   Location:
+2025-06-04T22:38:12:     /var/www/html/topnetworks/astro.config.ts:99:0
+2025-06-04T22:38:12:   Stack trace:
+2025-06-04T22:38:12:     at failureErrorWithLog (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:1477:15)
+2025-06-04T22:38:12:     at responseCallbacks.<computed> (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:623:9)
+2025-06-04T22:38:12:     at Socket.readFromStdout (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:601:7)
+2025-06-04T22:38:12:     at addChunk (node:internal/streams/readable:561:12)
+2025-06-04T22:38:12:     at Readable.push (node:internal/streams/readable:392:5)
+2025-06-04T22:38:17: 
+2025-06-04T22:38:17: > @topnetworks/topnwetworks@1.0.0 preview
+2025-06-04T22:38:17: > astro preview --port 5000
+2025-06-04T22:38:17: 
+2025-06-04T22:38:18: 10:38:18 PM [vite] (ssr) Error when evaluating SSR module /var/www/html/topnetworks/astro.config.ts: Transform failed with 1 error:
+2025-06-04T22:38:18: /var/www/html/topnetworks/astro.config.ts:99:0: ERROR: Unexpected "}"
+2025-06-04T22:38:18:   Plugin: vite:esbuild
+2025-06-04T22:38:18:   File: /var/www/html/topnetworks/astro.config.ts:99:0
+2025-06-04T22:38:18:   
+2025-06-04T22:38:18:   Unexpected "}"
+2025-06-04T22:38:18:   97 |      }
+2025-06-04T22:38:18:   98 |    },
+2025-06-04T22:38:18:   99 |  });
+2025-06-04T22:38:18:      |  ^
+2025-06-04T22:38:18:   100|  
+2025-06-04T22:38:18:   
+2025-06-04T22:38:18:       at failureErrorWithLog (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:1477:15)
+2025-06-04T22:38:18:       at /var/www/html/topnetworks/node_modules/esbuild/lib/main.js:756:50
+2025-06-04T22:38:18:       at responseCallbacks.<computed> (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:623:9)
+2025-06-04T22:38:18:       at handleIncomingPacket (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:678:12)
+2025-06-04T22:38:18:       at Socket.readFromStdout (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:601:7)
+2025-06-04T22:38:18:       at Socket.emit (node:events:524:28)
+2025-06-04T22:38:18:       at addChunk (node:internal/streams/readable:561:12)
+2025-06-04T22:38:18:       at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+2025-06-04T22:38:18:       at Readable.push (node:internal/streams/readable:392:5)
+2025-06-04T22:38:18:       at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2025-06-04T22:38:18: [astro] Unable to load your Astro config
+2025-06-04T22:38:18: 
+2025-06-04T22:38:19: Unexpected "}"
+2025-06-04T22:38:19:   Location:
+2025-06-04T22:38:19:     /var/www/html/topnetworks/astro.config.ts:99:0
+2025-06-04T22:38:19:   Stack trace:
+2025-06-04T22:38:19:     at failureErrorWithLog (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:1477:15)
+2025-06-04T22:38:19:     at responseCallbacks.<computed> (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:623:9)
+2025-06-04T22:38:19:     at Socket.readFromStdout (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:601:7)
+2025-06-04T22:38:19:     at addChunk (node:internal/streams/readable:561:12)
+2025-06-04T22:38:19:     at Readable.push (node:internal/streams/readable:392:5)
+2025-06-04T22:38:23: 
+2025-06-04T22:38:23: > @topnetworks/topnwetworks@1.0.0 preview
+2025-06-04T22:38:23: > astro preview --port 5000
+2025-06-04T22:38:23: 
+2025-06-04T22:38:25: 10:38:25 PM [vite] (ssr) Error when evaluating SSR module /var/www/html/topnetworks/astro.config.ts: Transform failed with 1 error:
+2025-06-04T22:38:25: /var/www/html/topnetworks/astro.config.ts:99:0: ERROR: Unexpected "}"
+2025-06-04T22:38:25:   Plugin: vite:esbuild
+2025-06-04T22:38:25:   File: /var/www/html/topnetworks/astro.config.ts:99:0
+2025-06-04T22:38:25:   
+2025-06-04T22:38:25:   Unexpected "}"
+2025-06-04T22:38:25:   97 |      }
+2025-06-04T22:38:25:   98 |    },
+2025-06-04T22:38:25:   99 |  });
+2025-06-04T22:38:25:      |  ^
+2025-06-04T22:38:25:   100|  
+2025-06-04T22:38:25:   
+2025-06-04T22:38:25:       at failureErrorWithLog (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:1477:15)
+2025-06-04T22:38:25:       at /var/www/html/topnetworks/node_modules/esbuild/lib/main.js:756:50
+2025-06-04T22:38:25:       at responseCallbacks.<computed> (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:623:9)
+2025-06-04T22:38:25:       at handleIncomingPacket (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:678:12)
+2025-06-04T22:38:25:       at Socket.readFromStdout (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:601:7)
+2025-06-04T22:38:25:       at Socket.emit (node:events:524:28)
+2025-06-04T22:38:25:       at addChunk (node:internal/streams/readable:561:12)
+2025-06-04T22:38:25:       at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+2025-06-04T22:38:25:       at Readable.push (node:internal/streams/readable:392:5)
+2025-06-04T22:38:25:       at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2025-06-04T22:38:25: [astro] Unable to load your Astro config
+2025-06-04T22:38:25: 
+2025-06-04T22:38:25: Unexpected "}"
+2025-06-04T22:38:25:   Location:
+2025-06-04T22:38:25:     /var/www/html/topnetworks/astro.config.ts:99:0
+2025-06-04T22:38:25:   Stack trace:
+2025-06-04T22:38:25:     at failureErrorWithLog (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:1477:15)
+2025-06-04T22:38:25:     at responseCallbacks.<computed> (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:623:9)
+2025-06-04T22:38:25:     at Socket.readFromStdout (/var/www/html/topnetworks/node_modules/esbuild/lib/main.js:601:7)
+2025-06-04T22:38:25:     at addChunk (node:internal/streams/readable:561:12)
+2025-06-04T22:38:25:     at Readable.push (node:internal/streams/readable:392:5)
+2025-06-04T22:38:30: 
+2025-06-04T22:38:30: > @topnetworks/topnwetworks@1.0.0 preview
+2025-06-04T22:38:30: > astro preview --port 5000
+2025-06-04T22:38:30: 
+2025-06-04T22:38:34: 22:38:34 [astrowind] Astrowind `./src/config.yaml` has been loaded.
+2025-06-04T22:38:34: Port 5000 is in use, trying another one...
+2025-06-04T22:38:34: Port 5001 is in use, trying another one...
+2025-06-04T22:38:34: Port 5002 is in use, trying another one...
+2025-06-04T22:38:34: 
+2025-06-04T22:38:34:  astro  v5.8.1 ready in 11 ms
+2025-06-04T22:38:34: 
+2025-06-04T22:38:34: ┃ Local    http://localhost:5003/
+2025-06-04T22:38:34: ┃ Network  http://10.128.0.15:5003/
+2025-06-04T22:38:34: 
+2025-06-04T22:39:04: 
+2025-06-04T22:39:04: > @topnetworks/topnwetworks@1.0.0 preview
+2025-06-04T22:39:04: > astro preview --port 5000
+2025-06-04T22:39:04: 
+2025-06-04T22:39:07: 22:39:07 [astrowind] Astrowind `./src/config.yaml` has been loaded.
+2025-06-04T22:39:07: Port 5000 is in use, trying another one...
+2025-06-04T22:39:07: Port 5001 is in use, trying another one...
+2025-06-04T22:39:07: Port 5002 is in use, trying another one...
+2025-06-04T22:39:07: 
+2025-06-04T22:39:07:  astro  v5.8.1 ready in 10 ms
+2025-06-04T22:39:07: 
+2025-06-04T22:39:07: ┃ Local    http://localhost:5003/
+2025-06-04T22:39:07: ┃ Network  http://10.128.0.15:5003/
+2025-06-04T22:39:07: 
+2025-06-04T22:40:12: 
+2025-06-04T22:40:12: > @topnetworks/topnwetworks@1.0.0 preview
+2025-06-04T22:40:12: > astro preview --port 5000
+2025-06-04T22:40:12: 
+2025-06-04T22:40:15: 22:40:15 [astrowind] Astrowind `./src/config.yaml` has been loaded.
+2025-06-04T22:40:15: Port 5000 is in use, trying another one...
+2025-06-04T22:40:15: Port 5001 is in use, trying another one...
+2025-06-04T22:40:15: Port 5002 is in use, trying another one...
+2025-06-04T22:40:15: 
+2025-06-04T22:40:15:  astro  v5.8.1 ready in 14 ms
+2025-06-04T22:40:15: 
+2025-06-04T22:40:15: ┃ Local    http://localhost:5003/
+2025-06-04T22:40:15: ┃ Network  http://10.128.0.15:5003/
+2025-06-04T22:40:15: 
+2025-06-04T22:41:38: 
+2025-06-04T22:41:38: > @topnetworks/topnwetworks@1.0.0 preview
+2025-06-04T22:41:38: > astro preview --port 5000
+2025-06-04T22:41:38: 
+2025-06-04T22:41:41: 22:41:41 [astrowind] Astrowind `./src/config.yaml` has been loaded.
+2025-06-04T22:41:41: Port 5000 is in use, trying another one...
+2025-06-04T22:41:41: Port 5001 is in use, trying another one...
+2025-06-04T22:41:41: Port 5002 is in use, trying another one...
+2025-06-04T22:41:41: 
+2025-06-04T22:41:41:  astro  v5.8.1 ready in 11 ms
+2025-06-04T22:41:41: 
+2025-06-04T22:41:41: ┃ Local    http://localhost:5003/
+2025-06-04T22:41:41: ┃ Network  http://10.128.0.15:5003/
+2025-06-04T22:41:41: 
+2025-06-04T22:42:16: 
+2025-06-04T22:42:16: > @topnetworks/topnwetworks@1.0.0 preview
+2025-06-04T22:42:16: > astro preview --port 5000
+2025-06-04T22:42:16: 
+2025-06-04T22:42:19: 22:42:19 [astrowind] Astrowind `./src/config.yaml` has been loaded.
+2025-06-04T22:42:19: Port 5000 is in use, trying another one...
+2025-06-04T22:42:19: Port 5001 is in use, trying another one...
+2025-06-04T22:42:19: Port 5002 is in use, trying another one...
+2025-06-04T22:42:19: 
+2025-06-04T22:42:19:  astro  v5.8.1 ready in 11 ms
+2025-06-04T22:42:19: 
+2025-06-04T22:42:19: ┃ Local    http://localhost:5003/
+2025-06-04T22:42:19: ┃ Network  http://10.128.0.15:5003/
+2025-06-04T22:42:19: 
+2025-06-04T22:46:15: 
+2025-06-04T22:46:15: > @topnetworks/topnwetworks@1.0.0 preview
+2025-06-04T22:46:15: > astro preview --port 5000 --host --port 5000
+2025-06-04T22:46:15: 
+2025-06-04T22:46:18: 22:46:18 [astrowind] Astrowind `./src/config.yaml` has been loaded.
+2025-06-04T22:46:18: 
+2025-06-04T22:46:18:  astro  v5.8.1 ready in 9 ms
+2025-06-04T22:46:18: 
+2025-06-04T22:46:18: ┃ Local    http://localhost:5000/
+2025-06-04T22:46:18: ┃ Network  http://10.128.0.15:5000/
+2025-06-04T22:46:18: 
+2025-06-04T22:48:24: 
+2025-06-04T22:48:24: > @topnetworks/topnwetworks@1.0.0 preview
+2025-06-04T22:48:24: > astro preview --port 5000 --host --port 5000
+2025-06-04T22:48:24: 
+2025-06-04T22:48:27: 22:48:27 [astrowind] Astrowind `./src/config.yaml` has been loaded.
+2025-06-04T22:48:27: 
+2025-06-04T22:48:27:  astro  v5.8.1 ready in 8 ms
+2025-06-04T22:48:27: 
+2025-06-04T22:48:27: ┃ Local    http://localhost:5000/
+2025-06-04T22:48:27: ┃ Network  http://10.128.0.15:5000/
+2025-06-04T22:48:27: 
+2025-06-04T22:48:54: 
+2025-06-04T22:48:54: > @topnetworks/topnwetworks@1.0.0 preview
+2025-06-04T22:48:54: > astro preview --port 5000 --host --port 5000
+2025-06-04T22:48:54: 
+2025-06-04T22:48:56: 22:48:56 [astrowind] Astrowind `./src/config.yaml` has been loaded.
+2025-06-04T22:48:56: 
+2025-06-04T22:48:56:  astro  v5.8.1 ready in 9 ms
+2025-06-04T22:48:56: 
+2025-06-04T22:48:56: ┃ Local    http://localhost:5000/
+2025-06-04T22:48:56: ┃ Network  http://10.128.0.15:5000/
+2025-06-04T22:48:56: 
+2025-06-04T22:50:04: 
+2025-06-04T22:50:04: > @topnetworks/topnwetworks@1.0.0 preview
+2025-06-04T22:50:04: > astro preview --port 5000 --host --port 5000
+2025-06-04T22:50:04: 
+2025-06-04T22:50:06: 22:50:06 [astrowind] Astrowind `./src/config.yaml` has been loaded.
+2025-06-04T22:50:06: 
+2025-06-04T22:50:06:  astro  v5.8.1 ready in 8 ms
+2025-06-04T22:50:06: 
+2025-06-04T22:50:06: ┃ Local    http://localhost:5000/
+2025-06-04T22:50:06: ┃ Network  http://10.128.0.15:5000/
+2025-06-04T22:50:06: 
+2025-06-04T22:50:47: 
+2025-06-04T22:50:47: > @topnetworks/topnwetworks@1.0.0 preview
+2025-06-04T22:50:47: > astro preview --port 5000 --host --port 5000
+2025-06-04T22:50:47: 
+2025-06-04T22:50:50: 22:50:50 [astrowind] Astrowind `./src/config.yaml` has been loaded.
+2025-06-04T22:50:50: 
+2025-06-04T22:50:50:  astro  v5.8.1 ready in 8 ms
+2025-06-04T22:50:50: 
+2025-06-04T22:50:50: ┃ Local    http://localhost:5000/
+2025-06-04T22:50:50: ┃ Network  http://10.128.0.15:5000/
+2025-06-04T22:50:50: 
+2025-06-04T22:51:44: 
+2025-06-04T22:51:44: > @topnetworks/topnwetworks@1.0.0 preview
+2025-06-04T22:51:44: > astro preview --port 5000 --host --port 5000
+2025-06-04T22:51:44: 
+2025-06-04T22:51:47: 22:51:47 [astrowind] Astrowind `./src/config.yaml` has been loaded.
+2025-06-04T22:51:47: 
+2025-06-04T22:51:47:  astro  v5.8.1 ready in 8 ms
+2025-06-04T22:51:47: 
+2025-06-04T22:51:47: ┃ Local    http://localhost:5000/
+2025-06-04T22:51:47: ┃ Network  http://10.128.0.15:5000/
+2025-06-04T22:51:47: 
