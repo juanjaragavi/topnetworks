@@ -1,1 +1,5 @@
-feat: Enhance landing page with Founders, Marcas, Contact form; fix errors
+feat: Update header CTA and fix form disclaimer rendering
+
+- Replaces the 'Download' button in the header with 'Conoce Más', linking to #servicios.
+- Corrects HTML rendering for the privacy policy link in the contact form disclaimer.
+- Includes other miscellaneous updates across various project files.

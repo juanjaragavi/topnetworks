@@ -1,6 +1,17 @@
 import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
+import type { CallToAction } from './types';
 
-export const headerData = {
+export const headerData: {
+  links: Array<{
+    text: string;
+    href?: string;
+    links?: Array<{
+      text: string;
+      href: string;
+    }>;
+  }>;
+  actions: Array<CallToAction>;
+} = {
   links: [
     {
       text: 'Homes',
@@ -115,7 +126,14 @@ export const headerData = {
       href: '#',
     },
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
+  actions: [
+    {
+      variant: 'primary',
+      text: 'Conoce Más',
+      href: '#servicios',
+      icon: 'tabler:arrow-down-circle',
+    },
+  ],
 };
 
 export const footerData = {

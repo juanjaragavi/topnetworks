@@ -9,20 +9,18 @@ import { getHomePermalink } from '~/utils/permalinks';
 import { trimSlash, getAsset } from '~/utils/permalinks';
 import type { CallToAction } from '~/types';
 
-interface Link {
-  text?: string;
-  href?: string;
-  ariaLabel?: string;
-  icon?: string;
-}
-
-interface MenuLink extends Link {
-  links?: Array<MenuLink>;
-}
-
 export interface Props {
   id?: string;
-  links?: Array<MenuLink>;
+  links?: Array<{
+    text: string;
+    href?: string;
+    links?: Array<{
+      text: string;
+      href: string;
+    }>;
+    ariaLabel?: string;
+    icon?: string;
+  }>;
   actions?: Array<CallToAction>;
   isSticky?: boolean;
   isDark?: boolean;

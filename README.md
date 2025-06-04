@@ -19,7 +19,7 @@ Nuestro sitio está diseñado para ser una plataforma "mobile-first", con un enf
 ![TopNetworks Screenshot](https://raw.githubusercontent.com/onwidget/.github/main/resources/astrowind/screenshot-astrowind-1.0.png)
 _Nota: La imagen de arriba es una captura de pantalla genérica de la plantilla Astrowind. El diseño real de TopNetworks puede variar._
 
-[![TopNetworks Inc.](https://custom-icon-badges.demolab.com/badge/desarrollado%20por%20-TopNetworks%20Inc.-556bf2?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+VG9wTmV0d29ya3M8L3RpdGxlPjxwYXRoIGQ9Ik0xMiAwQzUuMzcyIDAgMCA1LjM3MyAwIDEyczUuMzcyIDEyIDEyIDEyIDEyLTUuMzcyIDEyLTEyUzE4LjYyNyAwIDEyIDB6bTAgMjEuODhjLTUuNDU2IDAtOS44OC00LjQyNC05Ljg4LTkuODg0UzYuNTQ0IDIuMTIgMTIgMi4xMnM5Ljg4IDQuNDI0IDkuODggOS44ODQtNC40MjQgOS44OC05Ljg4IDkuODh6TTQgMTJoMWMwLTQuNDExIDMuNTg5LTggOC04czggMy41ODkgOCA4YzAgNC40MTEtMy41ODkgOC04IDhWMTJINGMtLjU1MiAwLTEgLjQ0OC0xIDBzLjQ0OCAxIDEgMWgxLjA4YzEuMDk0LS4wMzMgMi4xNjQtLjM0IDMuMDk0LS44NzNsLTEuNDQtMS40NEExLjUgMS41IDAgMCAxIDQgMTJ6bTE0LjQ4NS0xLjQ4NWwtMS40MTQgMS40MTRjMS4zMS45NzMgMi45MDQgMS41NzEgNC42MTkgMS41NzFoLjAxYy4xNTIgMCAuMjk4LS4wMzQuNDM0LS4wOTVBOS45MzUgOS45MzUgMCAwIDAgMjAuNTYgMTJoLTEuMDgxYy0xLjA5NS4wMzQtMi4xNjUuMzQtMy4wOTUuODc0eiIvPjwvc3ZnPg==&logoColor=white&labelColor=101827)](https://topnetworks.com) <!-- Reemplazar con el logo y URL real -->
+[![TopNetworks Inc.](https://custom-icon-badges.demolab.com/badge/desarrollado%20por%20-TopNetworks%20Inc.-556bf2?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+VG9wTmV0d29ya3M8L3RpdGxlPjxwYXRoIGQ9Ik0xMiAwQzUuMzcyIDAgMCA1LjM3MyAwIDEyczUuMzcyIDEyIDEyIDEyIDEyLTUuMzcyIDEyLTEyUzE4LjYyNyAwIDEyIDB6bTAgMjEuODhjLTUuNDU2IDAtOS44OC00LjQyNC05Ljg4LTkuODg0UzYuNTQ0IDIuMTIgMTIgMi4xMnM5Ljg4IDQuNDI0IDkuODggOS44ODQtNC40MjQgOS44OC05Ljg4IDkuODh6TTQgMTJoMWMwLTQuNDExIDMuNTg5LTggOC04czggMy41ODkgOCA4YzAgNC40MTEtMy41ODkgOC04IDhWMTJINGMtLjU1MiAwLTEgLjQ0OC0xIDBzLjQ0OCAxIDEgMWgxLjA4YzEuMDk0LS4wMzMgMi4xNjQtLjM0IDMuMDk0LS44NzNsLTEuNDQtMS40NEExLjUgMS41IDAgMCAxIDQgMTJ6bTE0LjQ4NS0xLjQ4NWwtMS40MTQgMS40MTRjMS4zMS45NzMgMi45MDQgMS41NzEgNC42MTkgMS41NzFoLjAxYy4xNTIgMCAuMjk4LS4wMzQuNDM0LS4wOTVBOS45MzUgOS45MzUgMCAwIDAgMjAuNTYgMTJoLTEuMDgxYy0xLjA5NS4wMzQtMi4xNjUuMzQtMy4wOTUuODc0eiIvPjwvc3ZnPg==&logoColor=white&labelColor=101827)](https://topnetworks.co) <!-- Reemplazar con el logo y URL real -->
 [![License](https://img.shields.io/github/license/juanjaragavi/topnetworks?style=flat-square&color=dddddd&labelColor=000000)](https://github.com/juanjaragavi/topnetworks/blob/main/LICENSE.md)
 [![Maintained](https://img.shields.io/badge/mantenido%3F-s%C3%AD-brightgreen.svg?style=flat-square)](https://github.com/juanjaragavi/topnetworks)
 [![Contributions Welcome](https://img.shields.io/badge/contribuciones-bienvenidas-brightgreen.svg?style=flat-square)](https://github.com/juanjaragavi/topnetworks#contributing)
@@ -48,7 +48,7 @@ _Nota: La imagen de arriba es una captura de pantalla genérica de la plantilla 
 
 ## Demo
 
-📌 El sitio oficial de TopNetworks Inc. estará disponible en [topnetworks.com](https://topnetworks.com) (URL provisional).
+📌 El sitio oficial de TopNetworks Inc. estará disponible en [topnetworks.co](https://topnetworks.co) (URL provisional).
 El repositorio del proyecto se encuentra en [GitHub](https://github.com/juanjaragavi/topnetworks.git).
 
 <br>
@@ -145,7 +145,7 @@ Asegúrate de que la configuración en `src/config.yaml` refleje los detalles de
 ```yaml
 site:
   name: 'TopNetworks Inc.'
-  site: 'https://topnetworks.com' # URL Provisional
+  site: 'https://topnetworks.co' # URL Provisional
   base: '/'
   trailingSlash: false
 
