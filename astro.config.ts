@@ -25,6 +25,8 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
 export default defineConfig({
   output: 'static',
   
+  site: 'https://topnetworks.co',
+  
   server: {
     port: 5000,
     host: true
@@ -83,5 +85,13 @@ export default defineConfig({
         '~': path.resolve(__dirname, './src'),
       },
     },
+    preview: {
+      allowedHosts: ['topnetworks.co', 'www.topnetworks.co', 'localhost'],
+    },
+    server: {
+      hmr: {
+        host: 'topnetworks.co'
+      }
+    }
   },
 });

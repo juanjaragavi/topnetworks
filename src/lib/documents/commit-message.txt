@@ -1,5 +1,6 @@
-chore: configure project to run on port 5000
+feat: configure domain settings for topnetworks.co
 
-- Updated package.json scripts to use port 5000 for dev, start, and preview commands
-- Added server configuration in astro.config.ts to ensure consistent port usage
-- Set host: true to allow connections from any network interface for remote deployment
+- Added site URL configuration in astro.config.ts
+- Added allowed hosts for preview (topnetworks.co, www.topnetworks.co, localhost)
+- Configured HMR to work with the domain
+- Removed placeholder comment from config.yaml

@@ -1,6 +1,6 @@
 site:
   name: TopNetworks
-  site: "https://topnetworks.co" # Placeholder, replace with actual domain
+  site: "https://topnetworks.co"
   base: "/"
   trailingSlash: false
 
