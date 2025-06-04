@@ -13,6 +13,17 @@ import Headline from '~/components/ui/Headline.astro'; // Added
 import ItemGrid from '~/components/ui/ItemGrid.astro'; // Added
 import Contact from '~/components/widgets/Contact.astro'; // Added Contact
 import FAQs from '~/components/widgets/FAQs.astro';
+
+// Import brand logos
+import topfinanzasMexicoLogo from '~/assets/logo/topfinanzas-logo-mexico.png';
+import topfinanzasUsLogo from '~/assets/logo/topfinanzas-logo-us.webp';
+import topfinanzasUkLogo from '~/assets/logo/topfinanzas-logo.webp'; // Generic for UK
+import budgetbeeLogo from '~/assets/logo/budgetbee-logo.webp';
+
+// Import founder images
+import juanHoyosImg from '~/assets/images/juan-hoyos.webp';
+import francisLockImg from '~/assets/images/francis-lock.webp';
+import camiloGomezImg from '~/assets/images/camilo-gomez.webp';
 import Stats from '~/components/widgets/Stats.astro';
 // import CallToAction from '~/components/widgets/CallToAction.astro'; // Removed as it's no longer used on this page
 
@@ -215,34 +226,34 @@ const metadata = {
             title: 'TopFinanzas México',
             description:
               'Nuestra plataforma validada. Comunidad de finanzas personales ayudando a tomar mejores decisiones financieras. Más de 90,000 usuarios únicos al mes.',
-            icon: 'tabler:building-bank', // Changed icon
+            image: { src: topfinanzasMexicoLogo, alt: 'TopFinanzas México Logo' },
           },
           {
             title: 'TopFinanzas USA',
             description:
               'Expansión al mercado estadounidense. Lanzamiento planificado para Q4 2024, aprovechando un mercado publicitario de $298.4bn.',
-            icon: 'flat-color-icons:area-chart',
+            image: { src: topfinanzasUsLogo, alt: 'TopFinanzas USA Logo' },
           },
           {
             title: 'TopFinanzas UK',
             description:
               'Próxima entrada al Reino Unido en Q1 2025. Un mercado con una inversión publicitaria digital estimada de $44.4bn.',
-            icon: 'flat-color-icons:business',
+            image: { src: topfinanzasUkLogo, alt: 'TopFinanzas UK Logo' },
           },
           {
             title: 'BudgetBee',
             description:
               "'Your Hive for Unbiased Financial Buzz'. Plataforma para Gen Z y Millennials, enfocada en tarjetas de crédito, presupuestos y finanzas personales.",
-            icon: 'flat-color-icons:calculator',
+            image: { src: budgetbeeLogo, alt: 'BudgetBee Logo' },
           },
         ]}
         classes={{
           container: 'gap-8 md:gap-12', // Grid styling for items
           panel:
-            'text-left p-6 rounded-lg bg-slate-50 dark:bg-slate-800 shadow-xl hover:shadow-2xl transition-shadow duration-300 flex flex-col', // Card styling
-          icon: 'w-12 h-12 text-primary dark:text-secondary mb-4 self-start', // Icon styling
-          title: 'text-2xl font-bold text-gray-900 dark:text-white mb-3', // Title styling
-          description: 'text-md text-gray-700 dark:text-slate-300 flex-grow', // Description styling
+            'text-left p-6 rounded-lg bg-slate-50 dark:bg-slate-800 shadow-xl hover:shadow-2xl transition-shadow duration-300 flex flex-col items-center', // Added items-center for horizontal centering of image
+          image: 'h-20 w-auto mb-4 self-center object-contain', // Changed from icon, increased size, self-center
+          title: 'text-2xl font-bold text-gray-900 dark:text-white mb-3 text-center', // Centered title
+          description: 'text-md text-gray-700 dark:text-slate-300 flex-grow text-center', // Centered description
         }}
       />
     </div>
@@ -374,29 +385,29 @@ const metadata = {
           {
             title: 'Juan Hoyos',
             description:
-              'Estrategia digital, publicidad y marketing digital, MarTech y tecnología. Empresario. <br/><strong>Enfoque TOP:</strong> UX, contenidos, canales digitales, ingeniería, infraestructura y negocio.',
-            icon: 'tabler:user',
+              'Estrategia digital, publicidad y marketing digital, MarTech y tecnología. Empresario. <br/><strong class="text-primary">Enfoque TOP:</strong> UX, contenidos, canales digitales, ingeniería, infraestructura y negocio.',
+            image: { src: juanHoyosImg, alt: 'Juan Hoyos' },
           },
           {
             title: 'Francis Lock',
             description:
-              'Estrategia y comercialización de medios y publicidad digital. Empresario. <br/><strong>Enfoque TOP:</strong> buy-side Performance Advertising, networks y data analytics.',
-            icon: 'tabler:user',
+              'Estrategia y comercialización de medios y publicidad digital. Empresario. <br/><strong class="text-primary">Enfoque TOP:</strong> buy-side Performance Advertising, networks y data analytics.',
+            image: { src: francisLockImg, alt: 'Francis Lock' },
           },
           {
             title: 'Camilo Gómez',
             description:
-              'Consultor y (ex)líder regional de business dev. de plataforma AdTech: Google Ad Manager. <br/><strong>Enfoque TOP:</strong> Sell-side AdTech expert, Partner Relations y Cultura TOP.',
-            icon: 'tabler:user',
+              'Consultor y (ex)líder regional de business dev. de plataforma AdTech: Google Ad Manager. <br/><strong class="text-primary">Enfoque TOP:</strong> Sell-side AdTech expert, Partner Relations y Cultura TOP.',
+            image: { src: camiloGomezImg, alt: 'Camilo Gómez' },
           },
         ]}
         classes={{
           container: 'gap-8 md:gap-12',
           panel:
-            'text-center p-4 rounded-lg bg-white dark:bg-slate-800 shadow-md hover:shadow-lg transition-shadow duration-300',
-          icon: 'w-12 h-12 mx-auto text-primary dark:text-secondary mb-4',
+            'text-center p-6 rounded-lg bg-white dark:bg-slate-800 shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col items-center h-full', // Added h-full for equal height
+          image: 'w-32 h-32 rounded-lg shadow-lg mb-4 object-cover border-4 border-slate-200 dark:border-slate-700', // Rounded image with border and shadow
           title: 'text-xl font-semibold text-gray-900 dark:text-white mb-2',
-          description: 'text-sm text-gray-600 dark:text-slate-400',
+          description: 'text-sm text-gray-600 dark:text-slate-400 text-left', // Changed to text-left
         }}
       />
     </div>

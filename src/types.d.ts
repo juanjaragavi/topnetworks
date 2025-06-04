@@ -63,9 +63,9 @@ export interface MetaData {
   twitter?: MetaDataTwitter;
 }
 
-export interface MetaDataRobots {
-  index?: boolean;
-  follow?: boolean;
+export interface Image {
+  src: ImageMetadata | string; // Allow ImageMetadata for astro:assets
+  alt?: string;
 }
 
 export interface MetaDataImage {
@@ -88,10 +88,7 @@ export interface MetaDataTwitter {
   cardType?: string;
 }
 
-export interface Image {
-  src: string;
-  alt?: string;
-}
+// Removed duplicate Image interface, the one above (after MetaDataOpenGraph) is the correct one.
 
 export interface Video {
   src: string;
