@@ -1,9 +1,17 @@
 ---
-import { SITE } from 'astrowind:config';
+import Image from '~/components/common/Image.astro';
+import logoSrc from '~/assets/logo/topnetworks-logo.webp';
+import { SITE } from 'astrowind:config'; // SITE is still used for alt text
 ---
 
-<span
-  class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white"
->
-  🚀 {SITE?.name}
-</span>
+{
+  logoSrc && (
+    <Image
+      src={logoSrc}
+      alt={SITE?.name ? `${SITE.name} Logo` : 'TopNetworks Logo'}
+      width={150}
+      height={60}
+      loading="eager"
+    />
+  )
+}

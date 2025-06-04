@@ -2,6 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 
 import Hero from '~/components/widgets/Hero.astro';
+import AnimatedDeviceShowcase from '~/components/widgets/AnimatedDeviceShowcase.tsx'; // Updated import to .tsx
 import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
 import Features2 from '~/components/widgets/Features2.astro';
@@ -34,8 +35,9 @@ const metadata = {
       },
       { text: 'Contáctanos', href: '/contact' },
     ]}
-    image={{ src: '~/assets/images/hero-image.png', alt: 'TopNetworks Hero Image' }}
   >
+    <AnimatedDeviceShowcase slot="image" client:visible />
+    {/* Added client:visible here */}
     <Fragment slot="title">
       <span class="text-accent dark:text-white">TopNetworks Inc.</span>
       <br />Optimizando la Experiencia Digital
@@ -110,6 +112,7 @@ const metadata = {
   <!-- Content Widget **************** -->
 
   <Content
+    id="quienes-somos"
     isReversed
     tagline="Quiénes Somos"
     title="TopNetworks Inc: Innovación en Publicidad Digital"
@@ -150,6 +153,7 @@ const metadata = {
   <!-- Content Widget **************** -->
 
   <Content
+    id="estrategia-contenido"
     isAfterContent
     tagline="Estrategia de Contenido"
     title="Contenido Inteligente que Impulsa el Crecimiento"
@@ -247,6 +251,7 @@ const metadata = {
   <!-- Steps Widget ****************** -->
 
   <Steps
+    id="nuestro-proceso"
     title="Nuestro Proceso: Maximizando tu Retorno de Inversión Digital"
     items={[
       {
@@ -283,6 +288,7 @@ const metadata = {
   <!-- Features2 Widget ************** -->
 
   <Features2
+    id="ventajas"
     title="¿Por Qué Elegir TopNetworks?"
     subtitle="Resultados comprobados y un enfoque innovador nos distinguen en el mercado de la publicidad digital."
     tagline="Ventajas Competitivas"
@@ -399,6 +405,7 @@ const metadata = {
   <!-- FAQs Widget ******************* -->
 
   <FAQs
+    id="faqs"
     title="Preguntas Frecuentes"
     subtitle="Encuentra respuestas a las dudas más comunes sobre nuestros servicios, tecnología y cómo TopNetworks puede ayudarte a alcanzar tus objetivos."
     tagline="Resolviendo Dudas"

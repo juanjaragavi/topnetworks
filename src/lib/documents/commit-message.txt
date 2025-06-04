@@ -1,1 +1,12 @@
-Update project description in package.json
+feat: Implement animated device showcase and related updates
+
+- Install framer-motion, react, react-dom, and @astrojs/react.
+- Configure Astro and TypeScript for React and Framer Motion.
+- Create AnimatedDeviceShowcase.tsx component for hero section.
+- Update landing page to use the new animated showcase.
+- Create BackToTopButton.astro component and add to global layout.
+- Update site logo in header and footer.
+- Update footer copyright text.
+- Update contact page content to Spanish and revise contact info.
+- Update package.json description.
+- Update navigation for landing page sections and contact link.

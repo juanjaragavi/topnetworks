@@ -1,4 +1,4 @@
-import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
+import { getPermalink } from './utils/permalinks';
 import type { CallToAction } from './types';
 
 export const headerData: {
@@ -13,117 +13,127 @@ export const headerData: {
   actions: Array<CallToAction>;
 } = {
   links: [
+    // {
+    //   text: 'Homes', // Placeholder, removing for now
+    //   links: [
+    //     {
+    //       text: 'SaaS',
+    //       href: getPermalink('/homes/saas'),
+    //     },
+    //     {
+    //       text: 'Startup',
+    //       href: getPermalink('/homes/startup'),
+    //     },
+    //     {
+    //       text: 'Mobile App',
+    //       href: getPermalink('/homes/mobile-app'),
+    //     },
+    //     {
+    //       text: 'Personal',
+    //       href: getPermalink('/homes/personal'),
+    //     },
+    //   ],
+    // },
     {
-      text: 'Homes',
+      text: 'TopNetworks',
       links: [
-        {
-          text: 'SaaS',
-          href: getPermalink('/homes/saas'),
-        },
-        {
-          text: 'Startup',
-          href: getPermalink('/homes/startup'),
-        },
-        {
-          text: 'Mobile App',
-          href: getPermalink('/homes/mobile-app'),
-        },
-        {
-          text: 'Personal',
-          href: getPermalink('/homes/personal'),
-        },
+        { text: 'Servicios', href: '/#servicios' },
+        { text: 'Quiénes Somos', href: '/#quienes-somos' },
+        { text: 'Estrategia de Contenido', href: '/#estrategia-contenido' },
+        { text: 'Nuestras Marcas', href: '/#nuestras-marcas' },
+        { text: 'Nuestro Proceso', href: '/#nuestro-proceso' },
+        { text: 'Ventajas', href: '/#ventajas' },
+        { text: 'Fundadores', href: '/#founders' },
+        { text: 'FAQs', href: '/#faqs' },
+        { text: 'Contacto', href: '/#contacto' },
       ],
     },
+    // {
+    //   text: 'Landing', // Placeholder, removing for now
+    //   links: [
+    //     {
+    //       text: 'Lead Generation',
+    //       href: getPermalink('/landing/lead-generation'),
+    //     },
+    //     {
+    //       text: 'Long-form Sales',
+    //       href: getPermalink('/landing/sales'),
+    //     },
+    //     {
+    //       text: 'Click-Through',
+    //       href: getPermalink('/landing/click-through'),
+    //     },
+    //     {
+    //       text: 'Product Details (or Services)',
+    //       href: getPermalink('/landing/product'),
+    //     },
+    //     {
+    //       text: 'Coming Soon or Pre-Launch',
+    //       href: getPermalink('/landing/pre-launch'),
+    //     },
+    //     {
+    //       text: 'Subscription',
+    //       href: getPermalink('/landing/subscription'),
+    //     },
+    //   ],
+    // },
+    // {
+    //   text: 'Blog', // Assuming no blog for now, can be re-added
+    //   links: [
+    //     {
+    //       text: 'Blog List',
+    //       href: getBlogPermalink(),
+    //     },
+    //     {
+    //       text: 'Article',
+    //       href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
+    //     },
+    //     {
+    //       text: 'Article (with MDX)',
+    //       href: getPermalink('markdown-elements-demo-post', 'post'),
+    //     },
+    //     {
+    //       text: 'Category Page',
+    //       href: getPermalink('tutorials', 'category'),
+    //     },
+    //     {
+    //       text: 'Tag Page',
+    //       href: getPermalink('astro', 'tag'),
+    //     },
+    //   ],
+    // },
     {
-      text: 'Pages',
+      text: 'Páginas', // Renamed from Pages, kept for Terms/Privacy
       links: [
+        // {
+        //   text: 'Features (Anchor Link)', // Example, removing
+        //   href: getPermalink('/#features'),
+        // },
+        // {
+        //   text: 'Services', // Page link, removing as we have anchor
+        //   href: getPermalink('/services'),
+        // },
+        // {
+        //   text: 'Pricing', // Example, removing
+        //   href: getPermalink('/pricing'),
+        // },
+        // {
+        //   text: 'About us', // Example, removing
+        //   href: getPermalink('/about'),
+        // },
         {
-          text: 'Features (Anchor Link)',
-          href: getPermalink('/#features'),
-        },
-        {
-          text: 'Services',
-          href: getPermalink('/services'),
-        },
-        {
-          text: 'Pricing',
-          href: getPermalink('/pricing'),
-        },
-        {
-          text: 'About us',
-          href: getPermalink('/about'),
-        },
-        {
-          text: 'Contact',
+          text: 'Contacto', // Keeping page link for contact form
           href: getPermalink('/contact'),
         },
         {
-          text: 'Terms',
+          text: 'Términos y Condiciones',
           href: getPermalink('/terms'),
         },
         {
-          text: 'Privacy policy',
+          text: 'Política de Privacidad',
           href: getPermalink('/privacy'),
         },
       ],
-    },
-    {
-      text: 'Landing',
-      links: [
-        {
-          text: 'Lead Generation',
-          href: getPermalink('/landing/lead-generation'),
-        },
-        {
-          text: 'Long-form Sales',
-          href: getPermalink('/landing/sales'),
-        },
-        {
-          text: 'Click-Through',
-          href: getPermalink('/landing/click-through'),
-        },
-        {
-          text: 'Product Details (or Services)',
-          href: getPermalink('/landing/product'),
-        },
-        {
-          text: 'Coming Soon or Pre-Launch',
-          href: getPermalink('/landing/pre-launch'),
-        },
-        {
-          text: 'Subscription',
-          href: getPermalink('/landing/subscription'),
-        },
-      ],
-    },
-    {
-      text: 'Blog',
-      links: [
-        {
-          text: 'Blog List',
-          href: getBlogPermalink(),
-        },
-        {
-          text: 'Article',
-          href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
-        },
-        {
-          text: 'Article (with MDX)',
-          href: getPermalink('markdown-elements-demo-post', 'post'),
-        },
-        {
-          text: 'Category Page',
-          href: getPermalink('tutorials', 'category'),
-        },
-        {
-          text: 'Tag Page',
-          href: getPermalink('astro', 'tag'),
-        },
-      ],
-    },
-    {
-      text: 'Widgets',
-      href: '#',
     },
   ],
   actions: [
@@ -139,49 +149,54 @@ export const headerData: {
 export const footerData = {
   links: [
     {
-      title: 'Product',
+      title: 'Navegación',
       links: [
-        { text: 'Features', href: '#' },
-        { text: 'Security', href: '#' },
-        { text: 'Team', href: '#' },
-        { text: 'Enterprise', href: '#' },
-        { text: 'Customer stories', href: '#' },
-        { text: 'Pricing', href: '#' },
-        { text: 'Resources', href: '#' },
+        { text: 'Servicios', href: '/#servicios' },
+        { text: 'Quiénes Somos', href: '/#quienes-somos' },
+        { text: 'Estrategia', href: '/#estrategia-contenido' },
+        { text: 'Marcas', href: '/#nuestras-marcas' },
+        { text: 'Proceso', href: '/#nuestro-proceso' },
+        { text: 'Ventajas', href: '/#ventajas' },
+        { text: 'Fundadores', href: '/#founders' },
+        { text: 'FAQs', href: '/#faqs' },
+        { text: 'Contacto', href: '/#contacto' },
       ],
     },
     {
-      title: 'Platform',
+      title: 'Compañía', // Renamed from Company
       links: [
-        { text: 'Developer API', href: '#' },
-        { text: 'Partners', href: '#' },
-        { text: 'Atom', href: '#' },
-        { text: 'Electron', href: '#' },
-        { text: 'AstroWind Desktop', href: '#' },
+        // { text: 'About', href: '#' }, // Placeholder
+        // { text: 'Blog', href: '#' }, // Placeholder
+        // { text: 'Careers', href: '#' }, // Placeholder
+        // { text: 'Press', href: '#' }, // Placeholder
+        // { text: 'Inclusion', href: '#' }, // Placeholder
+        // { text: 'Social Impact', href: '#' }, // Placeholder
+        // { text: 'Shop', href: '#' }, // Placeholder
+        // Keeping legal links here too for visibility
+        { text: 'Términos y Condiciones', href: getPermalink('/terms') },
+        { text: 'Política de Privacidad', href: getPermalink('/privacy') },
       ],
     },
-    {
-      title: 'Support',
-      links: [
-        { text: 'Docs', href: '#' },
-        { text: 'Community Forum', href: '#' },
-        { text: 'Professional Services', href: '#' },
-        { text: 'Skills', href: '#' },
-        { text: 'Status', href: '#' },
-      ],
-    },
-    {
-      title: 'Company',
-      links: [
-        { text: 'About', href: '#' },
-        { text: 'Blog', href: '#' },
-        { text: 'Careers', href: '#' },
-        { text: 'Press', href: '#' },
-        { text: 'Inclusion', href: '#' },
-        { text: 'Social Impact', href: '#' },
-        { text: 'Shop', href: '#' },
-      ],
-    },
+    // {
+    //   title: 'Platform', // Placeholder, removing
+    //   links: [
+    //     { text: 'Developer API', href: '#' },
+    //     { text: 'Partners', href: '#' },
+    //     { text: 'Atom', href: '#' },
+    //     { text: 'Electron', href: '#' },
+    //     { text: 'AstroWind Desktop', href: '#' },
+    //   ],
+    // },
+    // {
+    //   title: 'Support', // Placeholder, removing
+    //   links: [
+    //     { text: 'Docs', href: '#' },
+    //     { text: 'Community Forum', href: '#' },
+    //     { text: 'Professional Services', href: '#' },
+    //     { text: 'Skills', href: '#' },
+    //     { text: 'Status', href: '#' },
+    //   ],
+    // },
   ],
   secondaryLinks: [
     { text: 'Terms', href: getPermalink('/terms') },
@@ -191,11 +206,10 @@ export const footerData = {
     { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
-    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },
+    // { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') }, // RSS feed link removed as button was removed
+    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/juanjaragavi/topnetworks' }, // Updated GitHub link
   ],
   footNote: `
-    <img class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm" src="https://onwidget.com/favicon/favicon-32x32.png" alt="onWidget logo" loading="lazy"></img>
-    Made by <a class="text-blue-600 underline dark:text-muted" href="https://onwidget.com/"> onWidget</a> · All rights reserved.
+    © ${new Date().getFullYear()} TopNetworks Inc. Todos los derechos reservados.
   `,
 };
