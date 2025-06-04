@@ -1,7 +1,7 @@
 {
-  "name": "@onwidget/astrowind",
-  "version": "1.0.0-beta.52",
-  "description": "AstroWind: A free template using Astro 5.0 and Tailwind CSS. Astro starter theme.",
+  "name": "@topnetworks/topnwetworks",
+  "version": "1.0.0",
+  "description": "Landing page for TopNetworks Inc., a technology company specializing in optimizing digital advertising through programmatic networks and performance marketing.",
   "type": "module",
   "private": true,
   "engines": {
