@@ -1,9 +1,5 @@
-feat: Replace icons with logos and add founder images
+chore: configure project to run on port 5000
 
-- Updated ItemGrid component to support image rendering with custom classes
-- Fixed Image type interface in types.d.ts to accept ImageMetadata
-- Replaced generic icons with actual brand logos in "Nuestras Marcas" section
-- Redesigned Founders section with actual founder photographs
-- Added styling improvements: equal height cards, left-aligned text, blue "Enfoque TOP:" text
-- Added rounded borders and shadows to founder images
-- Added new assets: brand logos and founder images
+- Updated package.json scripts to use port 5000 for dev, start, and preview commands
+- Added server configuration in astro.config.ts to ensure consistent port usage
+- Set host: true to allow connections from any network interface for remote deployment
