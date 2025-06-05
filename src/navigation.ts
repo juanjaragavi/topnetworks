@@ -35,16 +35,17 @@ export const headerData: {
     //   ],
     // },
     {
-      text: 'TopNetworks',
+      text: 'Home', // Keeping page link for contact form
+      href: getPermalink('/#top'),
+    },
+    {
+      text: 'Our Model',
       links: [
-        { text: 'Servicios', href: '/#servicios' },
-        { text: 'Quiénes Somos', href: '/#quienes-somos' },
+        { text: 'Enfoque Estratégico', href: '/#servicios' },
         { text: 'Estrategia de Contenido', href: '/#estrategia-contenido' },
         { text: 'Nuestras Marcas', href: '/#nuestras-marcas' },
-        { text: 'Nuestro Proceso', href: '/#nuestro-proceso' },
         { text: 'Ventajas', href: '/#ventajas' },
         { text: 'Fundadores', href: '/#founders' },
-        { text: 'FAQs', href: '/#faqs' },
         { text: 'Contacto', href: '/#contacto' },
       ],
     },
@@ -103,44 +104,44 @@ export const headerData: {
     //   ],
     // },
     {
-      text: 'Páginas', // Renamed from Pages, kept for Terms/Privacy
-      links: [
-        // {
-        //   text: 'Features (Anchor Link)', // Example, removing
-        //   href: getPermalink('/#features'),
-        // },
-        // {
-        //   text: 'Services', // Page link, removing as we have anchor
-        //   href: getPermalink('/services'),
-        // },
-        // {
-        //   text: 'Pricing', // Example, removing
-        //   href: getPermalink('/pricing'),
-        // },
-        // {
-        //   text: 'About us', // Example, removing
-        //   href: getPermalink('/about'),
-        // },
-        {
-          text: 'Contacto', // Keeping page link for contact form
-          href: getPermalink('/contact'),
-        },
-        {
-          text: 'Términos y Condiciones',
-          href: getPermalink('/terms'),
-        },
-        {
-          text: 'Política de Privacidad',
-          href: getPermalink('/privacy'),
-        },
-      ],
+      text: 'Contacto', // Keeping page link for contact form
+      href: getPermalink('/contact'),
     },
+    //{
+    //text: 'Páginas', // Renamed from Pages, kept for Terms/Privacy
+    //links: [
+    // {
+    //   text: 'Features (Anchor Link)', // Example, removing
+    //   href: getPermalink('/#features'),
+    // },
+    // {
+    //   text: 'Services', // Page link, removing as we have anchor
+    //   href: getPermalink('/services'),
+    // },
+    // {
+    //   text: 'Pricing', // Example, removing
+    //   href: getPermalink('/pricing'),
+    // },
+    // {
+    //   text: 'About us', // Example, removing
+    //   href: getPermalink('/about'),
+    // },
+    //{
+    //  text: 'Términos y Condiciones',
+    //  href: getPermalink('/terms'),
+    //},
+    //{
+    //  text: 'Política de Privacidad',
+    //  href: getPermalink('/privacy'),
+    //},
+    //],
+    //},
   ],
   actions: [
     {
       variant: 'primary',
       text: 'Conoce Más',
-      href: '#servicios',
+      href: '/#ventajas',
       icon: 'tabler:arrow-down-circle',
     },
   ],
@@ -151,14 +152,11 @@ export const footerData = {
     {
       title: 'Navegación',
       links: [
-        { text: 'Servicios', href: '/#servicios' },
-        { text: 'Quiénes Somos', href: '/#quienes-somos' },
+        { text: 'Enfoque Estratégico', href: '/#servicios' },
         { text: 'Estrategia', href: '/#estrategia-contenido' },
         { text: 'Marcas', href: '/#nuestras-marcas' },
-        { text: 'Proceso', href: '/#nuestro-proceso' },
         { text: 'Ventajas', href: '/#ventajas' },
         { text: 'Fundadores', href: '/#founders' },
-        { text: 'FAQs', href: '/#faqs' },
         { text: 'Contacto', href: '/#contacto' },
       ],
     },
