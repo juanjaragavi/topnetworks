@@ -1,7 +1,10 @@
-Add PM2 ecosystem configuration
+feat: enhance founders section and stats widget
 
-- Create ecosystem.config.js for PM2 process management
-- Configure topnetworks-co application with production settings
-- Set up logging paths (err.log, out.log, combined.log)
-- Configure 1GB memory restart limit
-- Set production environment on port 4000
+- Add LinkedIn integration to founders' profile cards
+  - Juan Hoyos: linkedin.com/in/monohoyos
+  - Francis Lock: linkedin.com/in/francislock
+  - Camilo Gómez: linkedin.com/in/gomezcamilo10
+- Style LinkedIn buttons with official blue color (#0077b5)
+- Implement pill-shaped design with white semibold text
+- Add "Cifras Q1-2025" footnote to Stats widget
+- Update navigation and content components

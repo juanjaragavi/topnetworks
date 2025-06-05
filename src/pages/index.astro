@@ -6,13 +6,13 @@ import AnimatedDeviceShowcase from '~/components/widgets/AnimatedDeviceShowcase.
 import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
 import Features2 from '~/components/widgets/Features2.astro';
-import Steps from '~/components/widgets/Steps.astro';
+//import Steps from '~/components/widgets/Steps.astro'; //
 import Content from '~/components/widgets/Content.astro';
 import WidgetWrapper from '~/components/ui/WidgetWrapper.astro'; // Added
 import Headline from '~/components/ui/Headline.astro'; // Added
 import ItemGrid from '~/components/ui/ItemGrid.astro'; // Added
 import Contact from '~/components/widgets/Contact.astro'; // Added Contact
-import FAQs from '~/components/widgets/FAQs.astro';
+// import FAQs from '~/components/widgets/FAQs.astro';
 
 // Import brand logos
 import topfinanzasMexicoLogo from '~/assets/logo/topfinanzas-logo-mexico.png';
@@ -51,18 +51,18 @@ const metadata = {
     {/* Added client:visible here */}
     <Fragment slot="title">
       <span class="text-accent dark:text-white">TopNetworks Inc.</span>
-      <br />Optimizando la Experiencia Digital
+      <br />Performance Publishers
     </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        En <span class="font-semibold">TopNetworks</span>, somos una empresa de tecnología de vanguardia. Desarrollamos
-        y perfeccionamos continuamente modelos de monetización basados en performance marketing, agregando valor tanto a
-        usuarios como a anunciantes.
+        Somos una empresa de tecnología de vanguardia con enfoque <span class="inline font-semibold text-secondary"
+          >AI first</span
+        >. somos una empresa de tecnología de vanguardia. Desarrollamos y optimizamos modelos de monetización de
       </span>
-      <span class="block mb-1 sm:hidden font-bold text-secondary">TopNetworks: Conectamos Valor.</span>
-      Especialistas en optimización de publicidad digital programática con un enfoque "mobile-first", iniciando en el dinámico
-      sector financiero.
+      <span class="inline font-semibold text-secondary">Performance Publishing</span>, bajo procesos de performance
+      marketing, user experience y publicidad programática, agregando valor de forma continua a usuarios y a anunciantes
+      fortaleciendo su interacción.
     </Fragment>
   </Hero>
 
@@ -77,14 +77,13 @@ const metadata = {
 
   <Features
     id="servicios"
-    tagline="Servicios Clave"
-    title="Potenciamos tu Estrategia Digital"
-    subtitle="Descubre cómo nuestros servicios especializados pueden transformar tus resultados en el competitivo mercado digital."
+    tagline="Enfoque Estratégico"
+    title="Potenciamos la Efectividad de la Publicidad Digital"
     items={[
       {
-        title: 'Generación y Producción de Contenido',
+        title: 'Contenido que Agrega Valor',
         description:
-          'Creamos contenido relevante y optimizado utilizando modelos SEO, Inbound y nuestro exclusivo Modelo de Optimización TopNetworks enfocado en "mobile-first".',
+          'Investigamos para suplir las necesidades de las audiencias y generar el contexto ideal para la toma de decisión; creamos contenido relevante y optimizado bajo estándares de SEO, método Inbound y nuestro modelo de optimización “AI <> Data-Driven".',
         icon: 'tabler:file-text',
       },
       {
@@ -94,34 +93,22 @@ const metadata = {
         icon: 'tabler:users-group',
       },
       {
-        title: 'Tecnología y Operación Avanzada',
+        title: 'AI-First + Knowledge-First',
         description:
-          'Empleamos más de 10 herramientas digitales para una gestión eficiente de creatividades, tareas técnicas, integraciones, control de calidad y flujo de datos, asegurando escalabilidad.',
+          'Modelo potenciado en equipos de agentes de AI (Agentic Frameworks) enfocados a la producción continua, el análisis de datos, la optimización del modelo y la construcción de una base de conocimiento que permita una rápida escala global.',
         icon: 'tabler:settings-cog',
       },
       {
-        title: 'Optimización Mobile-First',
+        title: 'Visión Global',
         description:
-          'Nuestro enfoque "mobile-first" garantiza que todas las estrategias y contenidos estén perfectamente adaptados para el consumo en dispositivos móviles, maximizando el alcance y la interacción.',
-        icon: 'tabler:device-mobile',
-      },
-      {
-        title: 'Performance Marketing Basado en Datos',
-        description:
-          'Desarrollamos y optimizamos modelos de monetización que se basan en el análisis de datos y el rendimiento para asegurar ingresos publicitarios superiores al costo de adquisición.',
-        icon: 'tabler:chart-bar',
-      },
-      {
-        title: 'Expansión Estratégica',
-        description:
-          'Nuestro modelo de negocio está diseñado para una fácil expansión a nuevos mercados y verticales, replicando el éxito y adaptándonos a las necesidades locales.',
+          'El modelo Top Networks se enfoca en crear una red de sitios web en nichos específicos en diferentes mercados, customizando la experiencia a las necesidades de cada país. Nuestra tecnología nos permite desplegar el modelo rápidamente a nivel global.',
         icon: 'tabler:world-longitude',
       },
     ]}
   />
 
-  <!-- Content Widget **************** -->
-
+  <!-- Content Widget
+  
   <Content
     id="quienes-somos"
     isReversed
@@ -160,18 +147,30 @@ const metadata = {
       <div class="absolute inset-0 bg-slate-50 dark:bg-slate-900"></div>
     </Fragment>
   </Content>
+  
+  **************** -->
 
   <!-- Content Widget **************** -->
 
   <Content
     id="estrategia-contenido"
     isAfterContent
-    tagline="Estrategia de Contenido"
+    tagline="Estrategia de Contenidos"
     title="Contenido Inteligente que Impulsa el Crecimiento"
     items={[
       {
+        title: 'Investigación',
+        description: `Profundizamos en el entendimiento de las categorías en cada uno de los nichos de mercado, las particularidades en cada país, y aplicamos análisis de posicionamiento y competitivos en cada categoría. Tenemos el enfoque de entender las necesidades específicas de los usuarios para poder plantear soluciones.`,
+      },
+      {
+        title: 'Value-Driven',
+        description:
+          'Ofrecemos contenidos que resuelven los retos y dudas de los usuarios en la categoría específica con journeys que guían su proceso, y procuramos optimización técnica continua de cara a proveer contextos idóneos para los anunciantes. Agregamos valor a la relación usuario - anunciante.',
+      },
+      {
         title: 'Modelo SEO',
-        description: `Producimos contenido optimizado para motores de búsqueda, asegurando máxima relevancia y posicionamiento en Google.`,
+        description:
+          'Producimos contenido optimizado para motores de búsqueda, asegurando máxima relevancia y posicionamiento en Google.',
       },
       {
         title: 'Modelo Inbound',
@@ -179,14 +178,9 @@ const metadata = {
           'Creamos contenidos que guían al usuario a través del embudo de conversión (TOFU, MOFU, BOFU), fomentando el interés y mejorando la interacción.',
       },
       {
-        title: 'Optimización TopNetworks',
+        title: 'Optimización UX/UI',
         description:
-          'Nuestro modelo propio "mobile-first" optimiza la estructura y diseño del contenido para un consumo fácil en móviles y una monetización superior.',
-      },
-      {
-        title: 'Contenido Diferencial',
-        description:
-          'Adaptamos el diseño del contenido según la etapa del embudo, buscando en la etapa BOFU una afinidad con la marca del producto para potenciar el rendimiento.',
+          'Optimizamos continuamente la estructura del contenido, el diseño de la interfaz, la diagramación del diseño y los journeys de usuario para un consumo fácil en móviles y una monetización superior.',
       },
     ]}
     image={{
@@ -194,16 +188,12 @@ const metadata = {
       alt: 'Estrategia de Contenido Visualizada',
     }}
   >
-    <Fragment slot="content"
-      >El contenido es el pilar de una experiencia de usuario valiosa y una monetización efectiva.</Fragment
-    >
-
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-slate-50 dark:bg-slate-900"></div>
     </Fragment>
   </Content>
 
-  <!-- Nuestras Marcas Widget (Refactored to ItemGrid 2x2) **************** -->
+  <!-- Nuestras Marcas Widget (Custom Grid with Links) **************** -->
   <WidgetWrapper id="nuestras-marcas" isDark={false} containerClass="py-8 md:py-12 lg:py-16">
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-white dark:bg-slate-900"></div>
@@ -211,7 +201,7 @@ const metadata = {
     <Headline
       tagline="Nuestras Marcas"
       title="Portales Especializados para Audiencias Conectadas"
-      subtitle="Desarrollamos y operamos una red de portales de contenido especializados, diseñados para ser altamente escalables."
+      subtitle="Desarrollamos nuestro propio Ad Network altamente segmentado y escalable creando continuamente páginas de contenido especializadas y desplegadas a múltiples mercados. "
       classes={{
         container: 'max-w-xl sm:mx-auto lg:max-w-2xl text-center',
         title: 'text-4xl md:text-5xl font-bold tracking-tighter mb-4 font-heading',
@@ -219,48 +209,111 @@ const metadata = {
       }}
     />
     <div class="mx-auto max-w-5xl px-4 md:px-8 mt-8 md:mt-12">
-      <ItemGrid
-        columns={2}
-        items={[
-          {
-            title: 'TopFinanzas México',
-            description:
-              'Nuestra plataforma validada. Comunidad de finanzas personales ayudando a tomar mejores decisiones financieras. Más de 90,000 usuarios únicos al mes.',
-            image: { src: topfinanzasMexicoLogo, alt: 'TopFinanzas México Logo' },
-          },
-          {
-            title: 'TopFinanzas USA',
-            description:
-              'Expansión al mercado estadounidense. Lanzamiento planificado para Q4 2024, aprovechando un mercado publicitario de $298.4bn.',
-            image: { src: topfinanzasUsLogo, alt: 'TopFinanzas USA Logo' },
-          },
-          {
-            title: 'TopFinanzas UK',
-            description:
-              'Próxima entrada al Reino Unido en Q1 2025. Un mercado con una inversión publicitaria digital estimada de $44.4bn.',
-            image: { src: topfinanzasUkLogo, alt: 'TopFinanzas UK Logo' },
-          },
-          {
-            title: 'BudgetBee',
-            description:
-              "'Your Hive for Unbiased Financial Buzz'. Plataforma para Gen Z y Millennials, enfocada en tarjetas de crédito, presupuestos y finanzas personales.",
-            image: { src: budgetbeeLogo, alt: 'BudgetBee Logo' },
-          },
-        ]}
-        classes={{
-          container: 'gap-8 md:gap-12', // Grid styling for items
-          panel:
-            'text-left p-6 rounded-lg bg-slate-50 dark:bg-slate-800 shadow-xl hover:shadow-2xl transition-shadow duration-300 flex flex-col items-center', // Added items-center for horizontal centering of image
-          image: 'h-20 w-auto mb-4 self-center object-contain', // Changed from icon, increased size, self-center
-          title: 'text-2xl font-bold text-gray-900 dark:text-white mb-3 text-center', // Centered title
-          description: 'text-md text-gray-700 dark:text-slate-300 flex-grow text-center', // Centered description
-        }}
-      />
+      <div class="grid sm:grid-cols-2 gap-8 md:gap-12">
+        <!-- TopFinanzas México -->
+        <a
+          href="https://topfinanzas.com/mx"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="group block cursor-pointer"
+        >
+          <div
+            class="text-center p-6 rounded-lg bg-slate-50 dark:bg-slate-800 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 flex flex-col items-center h-full"
+          >
+            <img
+              src={topfinanzasMexicoLogo.src}
+              alt="TopFinanzas México Logo"
+              class="h-20 w-auto mb-4 self-center object-contain group-hover:scale-110 transition-transform duration-300"
+            />
+            <h3
+              class="text-2xl font-bold text-gray-900 dark:text-white mb-3 text-center group-hover:text-primary transition-colors duration-300"
+            >
+              TopFinanzas México
+            </h3>
+            <p class="text-md text-gray-700 dark:text-slate-300 flex-grow text-center">
+              Categoría: Finanzas Personales
+            </p>
+          </div>
+        </a>
+
+        <!-- TopFinanzas USA -->
+        <a
+          href="https://us.topfinanzas.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="group block cursor-pointer"
+        >
+          <div
+            class="text-center p-6 rounded-lg bg-slate-50 dark:bg-slate-800 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 flex flex-col items-center h-full"
+          >
+            <img
+              src={topfinanzasUsLogo.src}
+              alt="TopFinanzas USA Logo"
+              class="h-20 w-auto mb-4 self-center object-contain group-hover:scale-110 transition-transform duration-300"
+            />
+            <h3
+              class="text-2xl font-bold text-gray-900 dark:text-white mb-3 text-center group-hover:text-primary transition-colors duration-300"
+            >
+              TopFinanzas USA
+            </h3>
+            <p class="text-md text-gray-700 dark:text-slate-300 flex-grow text-center">
+              Categoría: Finanzas Personales
+            </p>
+          </div>
+        </a>
+
+        <!-- TopFinanzas UK -->
+        <a
+          href="https://uk.topfinanzas.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="group block cursor-pointer"
+        >
+          <div
+            class="text-center p-6 rounded-lg bg-slate-50 dark:bg-slate-800 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 flex flex-col items-center h-full"
+          >
+            <img
+              src={topfinanzasUkLogo.src}
+              alt="TopFinanzas UK Logo"
+              class="h-20 w-auto mb-4 self-center object-contain group-hover:scale-110 transition-transform duration-300"
+            />
+            <h3
+              class="text-2xl font-bold text-gray-900 dark:text-white mb-3 text-center group-hover:text-primary transition-colors duration-300"
+            >
+              TopFinanzas UK
+            </h3>
+            <p class="text-md text-gray-700 dark:text-slate-300 flex-grow text-center">
+              Categoría: Finanzas Personales
+            </p>
+          </div>
+        </a>
+
+        <!-- BudgetBee -->
+        <a href="https://budgetbeepro.com" target="_blank" rel="noopener noreferrer" class="group block cursor-pointer">
+          <div
+            class="text-center p-6 rounded-lg bg-slate-50 dark:bg-slate-800 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 flex flex-col items-center h-full"
+          >
+            <img
+              src={budgetbeeLogo.src}
+              alt="BudgetBee Logo"
+              class="h-20 w-auto mb-4 self-center object-contain group-hover:scale-110 transition-transform duration-300"
+            />
+            <h3
+              class="text-2xl font-bold text-gray-900 dark:text-white mb-3 text-center group-hover:text-primary transition-colors duration-300"
+            >
+              BudgetBee
+            </h3>
+            <p class="text-md text-gray-700 dark:text-slate-300 flex-grow text-center">
+              Categoría: Finanzas Personales
+            </p>
+          </div>
+        </a>
+      </div>
     </div>
   </WidgetWrapper>
 
-  <!-- Steps Widget ****************** -->
-
+  <!-- Steps Widget 
+  
   <Steps
     id="nuestro-proceso"
     title="Nuestro Proceso: Maximizando tu Retorno de Inversión Digital"
@@ -295,6 +348,8 @@ const metadata = {
       alt: 'Proceso TopNetworks',
     }}
   />
+  
+  ****************** -->
 
   <!-- Features2 Widget ************** -->
 
@@ -307,25 +362,25 @@ const metadata = {
       {
         title: 'Experiencia Comprobada',
         description:
-          'Fundadores con más de 15 años en publicidad digital y AdTech. Éxito validado con TopFinanzas México.',
+          'Fundadores con más de 15 años en publicidad digital y AdTech. Tracción de negocio validada y rentabilidad real.',
         icon: 'flat-color-icons:approval',
       },
       {
         title: 'Tecnología de Punta',
         description:
-          'Utilizamos un stack de más de 10 herramientas para una operación eficiente, centralizada y escalable.',
+          'Nuestro enfoque en AI y datos nos ha permitido acelerar el time to market para lograr nuestra visión global. Tech stack robusto, potenciado gracias a las tecnologías de Google.',
         icon: 'flat-color-icons:settings',
       },
       {
         title: 'Resultados Superiores',
         description:
-          'Logramos tasas de interacción (CTR) significativamente más altas que el promedio del mercado (e.g., 28.7% vs 0.5%).',
+          'Superamos métricas publicitarias en más de 50X comparadas con promedio de mercado publicados por la iab.',
         icon: 'flat-color-icons:bar-chart',
       },
       {
-        title: 'Enfoque Mobile-First',
+        title: 'Enfoque AI First - Data First',
         description:
-          'Nuestras estrategias están diseñadas primordialmente para dispositivos móviles, capturando la mayor parte del mercado publicitario.',
+          'Combinamos la creatividad y pericia de nuestro equipo humano con la capacidad y eficiencia de equipos de agentes de AI. Guiamos la ejecución bajo un riguroso y continuo análisis de datos.',
         icon: 'flat-color-icons:smartphone-tablet',
       },
       {
@@ -341,7 +396,8 @@ const metadata = {
       },
       {
         title: 'Optimización Continua',
-        description: 'Nos basamos en datos para perfeccionar constantemente la relación entre usuarios y anunciantes.',
+        description:
+          'Evolucionamos nuestro modelo y operación consistentemente para sacar provecho de los avances tecnológicos y dinámicas fluidas del mercado.',
         icon: 'flat-color-icons:data-configuration',
       },
       {
@@ -353,7 +409,7 @@ const metadata = {
       {
         title: 'Visión de Futuro',
         description:
-          'Estamos alineados con las tendencias macro de la digitalización bancaria y la publicidad programática.',
+          'Estamos alineados con las tendencias de la publicidad digital, los retos tecnológicos, el avance de las plataformas AdTech y la evolución de las necesidades del mercado.',
         icon: 'flat-color-icons:bullish',
       },
     ]}
@@ -369,7 +425,6 @@ const metadata = {
       <div class="absolute inset-0 bg-slate-50 dark:bg-slate-900"></div>
     </Fragment>
     <Headline
-      tagline="Nuestro Equipo"
       title="Conoce a los Fundadores de TopNetworks"
       subtitle="La experiencia y visión que impulsan nuestra innovación en el mercado digital."
       classes={{
@@ -387,18 +442,42 @@ const metadata = {
             description:
               'Estrategia digital, publicidad y marketing digital, MarTech y tecnología. Empresario. <br/><strong class="text-primary">Enfoque TOP:</strong> UX, contenidos, canales digitales, ingeniería, infraestructura y negocio.',
             image: { src: juanHoyosImg, alt: 'Juan Hoyos' },
+            callToAction: {
+              text: 'LinkedIn',
+              href: 'https://www.linkedin.com/in/monohoyos',
+              icon: 'tabler:brand-linkedin',
+              target: '_blank',
+              variant: 'primary',
+              class: 'bg-[#0077b5] hover:bg-[#0066a2] text-white font-semibold px-4 py-2 rounded-full',
+            },
           },
           {
             title: 'Francis Lock',
             description:
               'Estrategia y comercialización de medios y publicidad digital. Empresario. <br/><strong class="text-primary">Enfoque TOP:</strong> buy-side Performance Advertising, networks y data analytics.',
             image: { src: francisLockImg, alt: 'Francis Lock' },
+            callToAction: {
+              text: 'LinkedIn',
+              href: 'https://www.linkedin.com/in/francislock',
+              icon: 'tabler:brand-linkedin',
+              target: '_blank',
+              variant: 'primary',
+              class: 'bg-[#0077b5] hover:bg-[#0066a2] text-white font-semibold px-4 py-2 rounded-full',
+            },
           },
           {
             title: 'Camilo Gómez',
             description:
               'Consultor y (ex)líder regional de business dev. de plataforma AdTech: Google Ad Manager. <br/><strong class="text-primary">Enfoque TOP:</strong> Sell-side AdTech expert, Partner Relations y Cultura TOP.',
             image: { src: camiloGomezImg, alt: 'Camilo Gómez' },
+            callToAction: {
+              text: 'LinkedIn',
+              href: 'https://www.linkedin.com/in/gomezcamilo10',
+              icon: 'tabler:brand-linkedin',
+              target: '_blank',
+              variant: 'primary',
+              class: 'bg-[#0077b5] hover:bg-[#0066a2] text-white font-semibold px-4 py-2 rounded-full',
+            },
           },
         ]}
         classes={{
@@ -413,8 +492,8 @@ const metadata = {
     </div>
   </WidgetWrapper>
 
-  <!-- FAQs Widget ******************* -->
-
+  <!-- FAQs Widget 
+  
   <FAQs
     id="faqs"
     title="Preguntas Frecuentes"
@@ -454,23 +533,25 @@ const metadata = {
       },
     ]}
   />
+  
+  ******************* -->
 
   <!-- Stats Widget ****************** -->
 
   <Stats
     stats={[
-      { title: 'Usuarios Únicos/Mes (TopFinanzas MX)', amount: '+90K' },
-      { title: 'CTR Promedio en Anuncios', amount: '28.7%' },
-      { title: 'Artículos Publicados (TopFinanzas MX)', amount: '+200' },
-      { title: 'Expansión Global (Próximamente)', amount: 'USA & UK' },
+      { title: 'Usuarios Registrados', amount: '200K' },
+      { title: 'CTR Promedio', amount: '30.5%' },
+      { title: 'eCPM promedio 3 países', amount: '$167' },
+      { title: 'Viewability', amount: '92.6%' },
     ]}
+    subtitle="Cifras Q1-2025"
   />
 
   <!-- Contact Widget (Replaces CallToAction) *********** -->
   <Contact
     id="contacto"
-    title="Hablemos de tu Proyecto"
-    subtitle="Completa el formulario y nuestro equipo se pondrá en contacto contigo para explorar cómo TopNetworks puede potenciar tu estrategia digital."
+    title="Contacto"
     button="Enviar Mensaje"
     inputs={[
       {
