@@ -24,12 +24,12 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
 
 export default defineConfig({
   output: 'static',
-  
+
   site: 'https://topnetworks.co',
-  
+
   server: {
-    port: 5000,
-    host: true
+    port: 4000,
+    host: true,
   },
 
   integrations: [
@@ -86,16 +86,12 @@ export default defineConfig({
       },
     },
     preview: {
-      host: '0.0.0.0',
-      port: 5000,
-      strictPort: false,
-      disableHostCheck: true,
-      allowedHosts: 'all'
+      allowedHosts: ['topnetworks.co', 'www.topnetworks.co', 'localhost'],
     },
     server: {
       hmr: {
-        host: 'topnetworks.co'
-      }
-    }
+        host: 'topnetworks.co',
+      },
+    },
   },
 });

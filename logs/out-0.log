@@ -1,6 +1,6 @@
 2025-06-04T22:37:29: 
 2025-06-04T22:37:29: > @topnetworks/topnwetworks@1.0.0 preview
-2025-06-04T22:37:29: > astro preview --port 5000
+2025-06-04T22:37:29: > astro preview --port 4000
 2025-06-04T22:37:29: 
 2025-06-04T22:37:30: ▶ Astro collects anonymous usage data.
 2025-06-04T22:37:30:   This information helps us improve Astro.
@@ -9,46 +9,46 @@
 2025-06-04T22:37:30: 
 2025-06-04T22:37:35: 
 2025-06-04T22:37:35: > @topnetworks/topnwetworks@1.0.0 preview
-2025-06-04T22:37:35: > astro preview --port 5000
+2025-06-04T22:37:35: > astro preview --port 4000
 2025-06-04T22:37:35: 
 2025-06-04T22:37:41: 
 2025-06-04T22:37:41: > @topnetworks/topnwetworks@1.0.0 preview
-2025-06-04T22:37:41: > astro preview --port 5000
+2025-06-04T22:37:41: > astro preview --port 4000
 2025-06-04T22:37:41: 
 2025-06-04T22:37:47: 
 2025-06-04T22:37:47: > @topnetworks/topnwetworks@1.0.0 preview
-2025-06-04T22:37:47: > astro preview --port 5000
+2025-06-04T22:37:47: > astro preview --port 4000
 2025-06-04T22:37:47: 
 2025-06-04T22:37:53: 
 2025-06-04T22:37:53: > @topnetworks/topnwetworks@1.0.0 preview
-2025-06-04T22:37:53: > astro preview --port 5000
+2025-06-04T22:37:53: > astro preview --port 4000
 2025-06-04T22:37:53: 
 2025-06-04T22:37:59: 
 2025-06-04T22:37:59: > @topnetworks/topnwetworks@1.0.0 preview
-2025-06-04T22:37:59: > astro preview --port 5000
+2025-06-04T22:37:59: > astro preview --port 4000
 2025-06-04T22:37:59: 
 2025-06-04T22:38:05: 
 2025-06-04T22:38:05: > @topnetworks/topnwetworks@1.0.0 preview
-2025-06-04T22:38:05: > astro preview --port 5000
+2025-06-04T22:38:05: > astro preview --port 4000
 2025-06-04T22:38:05: 
 2025-06-04T22:38:11: 
 2025-06-04T22:38:11: > @topnetworks/topnwetworks@1.0.0 preview
-2025-06-04T22:38:11: > astro preview --port 5000
+2025-06-04T22:38:11: > astro preview --port 4000
 2025-06-04T22:38:11: 
 2025-06-04T22:38:17: 
 2025-06-04T22:38:17: > @topnetworks/topnwetworks@1.0.0 preview
-2025-06-04T22:38:17: > astro preview --port 5000
+2025-06-04T22:38:17: > astro preview --port 4000
 2025-06-04T22:38:17: 
 2025-06-04T22:38:23: 
 2025-06-04T22:38:23: > @topnetworks/topnwetworks@1.0.0 preview
-2025-06-04T22:38:23: > astro preview --port 5000
+2025-06-04T22:38:23: > astro preview --port 4000
 2025-06-04T22:38:23: 
 2025-06-04T22:38:30: 
 2025-06-04T22:38:30: > @topnetworks/topnwetworks@1.0.0 preview
-2025-06-04T22:38:30: > astro preview --port 5000
+2025-06-04T22:38:30: > astro preview --port 4000
 2025-06-04T22:38:30: 
 2025-06-04T22:38:34: 22:38:34 [astrowind] Astrowind `./src/config.yaml` has been loaded.
-2025-06-04T22:38:34: Port 5000 is in use, trying another one...
+2025-06-04T22:38:34: Port 4000 is in use, trying another one...
 2025-06-04T22:38:34: Port 5001 is in use, trying another one...
 2025-06-04T22:38:34: Port 5002 is in use, trying another one...
 2025-06-04T22:38:34: 
@@ -59,10 +59,10 @@
 2025-06-04T22:38:34: 
 2025-06-04T22:39:04: 
 2025-06-04T22:39:04: > @topnetworks/topnwetworks@1.0.0 preview
-2025-06-04T22:39:04: > astro preview --port 5000
+2025-06-04T22:39:04: > astro preview --port 4000
 2025-06-04T22:39:04: 
 2025-06-04T22:39:07: 22:39:07 [astrowind] Astrowind `./src/config.yaml` has been loaded.
-2025-06-04T22:39:07: Port 5000 is in use, trying another one...
+2025-06-04T22:39:07: Port 4000 is in use, trying another one...
 2025-06-04T22:39:07: Port 5001 is in use, trying another one...
 2025-06-04T22:39:07: Port 5002 is in use, trying another one...
 2025-06-04T22:39:07: 
@@ -73,10 +73,10 @@
 2025-06-04T22:39:07: 
 2025-06-04T22:40:12: 
 2025-06-04T22:40:12: > @topnetworks/topnwetworks@1.0.0 preview
-2025-06-04T22:40:12: > astro preview --port 5000
+2025-06-04T22:40:12: > astro preview --port 4000
 2025-06-04T22:40:12: 
 2025-06-04T22:40:15: 22:40:15 [astrowind] Astrowind `./src/config.yaml` has been loaded.
-2025-06-04T22:40:15: Port 5000 is in use, trying another one...
+2025-06-04T22:40:15: Port 4000 is in use, trying another one...
 2025-06-04T22:40:15: Port 5001 is in use, trying another one...
 2025-06-04T22:40:15: Port 5002 is in use, trying another one...
 2025-06-04T22:40:15: 
@@ -87,10 +87,10 @@
 2025-06-04T22:40:15: 
 2025-06-04T22:41:38: 
 2025-06-04T22:41:38: > @topnetworks/topnwetworks@1.0.0 preview
-2025-06-04T22:41:38: > astro preview --port 5000
+2025-06-04T22:41:38: > astro preview --port 4000
 2025-06-04T22:41:38: 
 2025-06-04T22:41:41: 22:41:41 [astrowind] Astrowind `./src/config.yaml` has been loaded.
-2025-06-04T22:41:41: Port 5000 is in use, trying another one...
+2025-06-04T22:41:41: Port 4000 is in use, trying another one...
 2025-06-04T22:41:41: Port 5001 is in use, trying another one...
 2025-06-04T22:41:41: Port 5002 is in use, trying another one...
 2025-06-04T22:41:41: 
@@ -101,10 +101,10 @@
 2025-06-04T22:41:41: 
 2025-06-04T22:42:16: 
 2025-06-04T22:42:16: > @topnetworks/topnwetworks@1.0.0 preview
-2025-06-04T22:42:16: > astro preview --port 5000
+2025-06-04T22:42:16: > astro preview --port 4000
 2025-06-04T22:42:16: 
 2025-06-04T22:42:19: 22:42:19 [astrowind] Astrowind `./src/config.yaml` has been loaded.
-2025-06-04T22:42:19: Port 5000 is in use, trying another one...
+2025-06-04T22:42:19: Port 4000 is in use, trying another one...
 2025-06-04T22:42:19: Port 5001 is in use, trying another one...
 2025-06-04T22:42:19: Port 5002 is in use, trying another one...
 2025-06-04T22:42:19: 
@@ -115,67 +115,67 @@
 2025-06-04T22:42:19: 
 2025-06-04T22:46:15: 
 2025-06-04T22:46:15: > @topnetworks/topnwetworks@1.0.0 preview
-2025-06-04T22:46:15: > astro preview --port 5000 --host --port 5000
+2025-06-04T22:46:15: > astro preview --port 4000 --host --port 4000
 2025-06-04T22:46:15: 
 2025-06-04T22:46:18: 22:46:18 [astrowind] Astrowind `./src/config.yaml` has been loaded.
 2025-06-04T22:46:18: 
 2025-06-04T22:46:18:  astro  v5.8.1 ready in 9 ms
 2025-06-04T22:46:18: 
-2025-06-04T22:46:18: ┃ Local    http://localhost:5000/
-2025-06-04T22:46:18: ┃ Network  http://10.128.0.15:5000/
+2025-06-04T22:46:18: ┃ Local    http://localhost:4000/
+2025-06-04T22:46:18: ┃ Network  http://10.128.0.15:4000/
 2025-06-04T22:46:18: 
 2025-06-04T22:48:24: 
 2025-06-04T22:48:24: > @topnetworks/topnwetworks@1.0.0 preview
-2025-06-04T22:48:24: > astro preview --port 5000 --host --port 5000
+2025-06-04T22:48:24: > astro preview --port 4000 --host --port 4000
 2025-06-04T22:48:24: 
 2025-06-04T22:48:27: 22:48:27 [astrowind] Astrowind `./src/config.yaml` has been loaded.
 2025-06-04T22:48:27: 
 2025-06-04T22:48:27:  astro  v5.8.1 ready in 8 ms
 2025-06-04T22:48:27: 
-2025-06-04T22:48:27: ┃ Local    http://localhost:5000/
-2025-06-04T22:48:27: ┃ Network  http://10.128.0.15:5000/
+2025-06-04T22:48:27: ┃ Local    http://localhost:4000/
+2025-06-04T22:48:27: ┃ Network  http://10.128.0.15:4000/
 2025-06-04T22:48:27: 
 2025-06-04T22:48:54: 
 2025-06-04T22:48:54: > @topnetworks/topnwetworks@1.0.0 preview
-2025-06-04T22:48:54: > astro preview --port 5000 --host --port 5000
+2025-06-04T22:48:54: > astro preview --port 4000 --host --port 4000
 2025-06-04T22:48:54: 
 2025-06-04T22:48:56: 22:48:56 [astrowind] Astrowind `./src/config.yaml` has been loaded.
 2025-06-04T22:48:56: 
 2025-06-04T22:48:56:  astro  v5.8.1 ready in 9 ms
 2025-06-04T22:48:56: 
-2025-06-04T22:48:56: ┃ Local    http://localhost:5000/
-2025-06-04T22:48:56: ┃ Network  http://10.128.0.15:5000/
+2025-06-04T22:48:56: ┃ Local    http://localhost:4000/
+2025-06-04T22:48:56: ┃ Network  http://10.128.0.15:4000/
 2025-06-04T22:48:56: 
 2025-06-04T22:50:04: 
 2025-06-04T22:50:04: > @topnetworks/topnwetworks@1.0.0 preview
-2025-06-04T22:50:04: > astro preview --port 5000 --host --port 5000
+2025-06-04T22:50:04: > astro preview --port 4000 --host --port 4000
 2025-06-04T22:50:04: 
 2025-06-04T22:50:06: 22:50:06 [astrowind] Astrowind `./src/config.yaml` has been loaded.
 2025-06-04T22:50:06: 
 2025-06-04T22:50:06:  astro  v5.8.1 ready in 8 ms
 2025-06-04T22:50:06: 
-2025-06-04T22:50:06: ┃ Local    http://localhost:5000/
-2025-06-04T22:50:06: ┃ Network  http://10.128.0.15:5000/
+2025-06-04T22:50:06: ┃ Local    http://localhost:4000/
+2025-06-04T22:50:06: ┃ Network  http://10.128.0.15:4000/
 2025-06-04T22:50:06: 
 2025-06-04T22:50:47: 
 2025-06-04T22:50:47: > @topnetworks/topnwetworks@1.0.0 preview
-2025-06-04T22:50:47: > astro preview --port 5000 --host --port 5000
+2025-06-04T22:50:47: > astro preview --port 4000 --host --port 4000
 2025-06-04T22:50:47: 
 2025-06-04T22:50:50: 22:50:50 [astrowind] Astrowind `./src/config.yaml` has been loaded.
 2025-06-04T22:50:50: 
 2025-06-04T22:50:50:  astro  v5.8.1 ready in 8 ms
 2025-06-04T22:50:50: 
-2025-06-04T22:50:50: ┃ Local    http://localhost:5000/
-2025-06-04T22:50:50: ┃ Network  http://10.128.0.15:5000/
+2025-06-04T22:50:50: ┃ Local    http://localhost:4000/
+2025-06-04T22:50:50: ┃ Network  http://10.128.0.15:4000/
 2025-06-04T22:50:50: 
 2025-06-04T22:51:44: 
 2025-06-04T22:51:44: > @topnetworks/topnwetworks@1.0.0 preview
-2025-06-04T22:51:44: > astro preview --port 5000 --host --port 5000
+2025-06-04T22:51:44: > astro preview --port 4000 --host --port 4000
 2025-06-04T22:51:44: 
 2025-06-04T22:51:47: 22:51:47 [astrowind] Astrowind `./src/config.yaml` has been loaded.
 2025-06-04T22:51:47: 
 2025-06-04T22:51:47:  astro  v5.8.1 ready in 8 ms
 2025-06-04T22:51:47: 
-2025-06-04T22:51:47: ┃ Local    http://localhost:5000/
-2025-06-04T22:51:47: ┃ Network  http://10.128.0.15:5000/
+2025-06-04T22:51:47: ┃ Local    http://localhost:4000/
+2025-06-04T22:51:47: ┃ Network  http://10.128.0.15:4000/
 2025-06-04T22:51:47: 
