@@ -1,6 +1,7 @@
-feat: configure domain settings for topnetworks.co
+Add PM2 ecosystem configuration
 
-- Added site URL configuration in astro.config.ts
-- Added allowed hosts for preview (topnetworks.co, www.topnetworks.co, localhost)
-- Configured HMR to work with the domain
-- Removed placeholder comment from config.yaml
+- Create ecosystem.config.js for PM2 process management
+- Configure topnetworks-co application with production settings
+- Set up logging paths (err.log, out.log, combined.log)
+- Configure 1GB memory restart limit
+- Set production environment on port 4000
