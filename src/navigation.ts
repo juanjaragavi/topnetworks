@@ -39,7 +39,7 @@ export const headerData: {
       href: getPermalink('/#top'),
     },
     {
-      text: 'Our Model',
+      text: 'Nuestro Modelo',
       links: [
         { text: 'Enfoque Estratégico', href: '/#servicios' },
         { text: 'Estrategia de Contenido', href: '/#estrategia-contenido' },
