@@ -1,1 +1,6 @@
-Update Footer and navigation
+feat: Update landing page content
+
+Updated the main landing page (src/pages/index.astro) with new content related to TopNetworks' services, founders, and brands. This includes:
+- Detailed descriptions of content generation, attraction, and monetization strategies.
+- Information about the founders' experience and strategic partnerships.
+- Overview of TopFinanzas USA, TopFinanzas UK, and BudgetBee, highlighting their achievements and future plans.
