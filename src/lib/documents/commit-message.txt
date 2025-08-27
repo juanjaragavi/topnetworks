@@ -1,6 +1,11 @@
-feat: Update landing page content
+feat: Add WARP.md documentation for Warp AI assistant
 
-Updated the main landing page (src/pages/index.astro) with new content related to TopNetworks' services, founders, and brands. This includes:
-- Detailed descriptions of content generation, attraction, and monetization strategies.
-- Information about the founders' experience and strategic partnerships.
-- Overview of TopFinanzas USA, TopFinanzas UK, and BudgetBee, highlighting their achievements and future plans.
+- Create comprehensive WARP.md file with project guidance
+- Include development commands and workflow
+- Document architecture and technology stack  
+- Add Git automation workflow details
+- Include content management and deployment instructions
+- Provide business context and integration points
+
+This documentation will help future Warp instances understand
+the TopNetworks project structure and development practices.
